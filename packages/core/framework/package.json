@@ -71,7 +71,7 @@
     "test": "../../../node_modules/.bin/jest --bail --forceExit --testPathPattern=src"
   },
   "devDependencies": {
-    "@freshbox-medusa/cli": "1.0.3"
+    "@freshbox-medusa/cli": "1.0.4"
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.218.0",
@@ -101,7 +101,7 @@
     "zod-validation-error": "3.5.1"
   },
   "peerDependencies": {
-    "@freshbox-medusa/cli": "1.0.3",
+    "@freshbox-medusa/cli": "1.0.4",
     "ioredis": "^5.4.1"
   },
   "peerDependenciesMeta": {
