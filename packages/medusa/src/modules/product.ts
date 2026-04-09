@@ -1,6 +1,6 @@
-import ProductModule from "@medusajs/product"
+import ProductModule from "@freshbox-medusa/product"
 
-export * from "@medusajs/product"
+export * from "@freshbox-medusa/product"
 
 export default ProductModule
-export const discoveryPath = require.resolve("@medusajs/product")
+export const discoveryPath = require.resolve("@freshbox-medusa/product")

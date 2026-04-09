@@ -1,4 +1,4 @@
-import { clx } from "@medusajs/ui"
+import { clx } from "@freshbox-medusa/ui"
 import { PropsWithChildren } from "react"
 
 type StatusCellProps = PropsWithChildren<{

@@ -1,6 +1,6 @@
 {
-  "name": "@medusajs/deps",
-  "version": "2.13.5",
+  "name": "@freshbox-medusa/deps",
+  "version": "1.0.3",
   "description": "Dependencies for Medusa",
   "main": "dist/index.js",
   "repository": {

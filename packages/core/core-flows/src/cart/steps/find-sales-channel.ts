@@ -3,14 +3,14 @@ import {
   IStoreModuleService,
   MedusaContainer,
   SalesChannelDTO,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   MedusaError,
   Modules,
   isDefined,
   useCache,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/utils"
+import { StepResponse, createStep } from "@freshbox-medusa/framework/workflows-sdk"
 
 /**
  * The details of the sales channel to find.

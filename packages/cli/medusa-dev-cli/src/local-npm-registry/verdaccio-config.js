@@ -3,6 +3,7 @@ const os = require(`os`)
 
 const verdaccioConfig = {
   storage: path.join(os.tmpdir(), `verdaccio`, `storage`),
+  self_path: path.join(os.tmpdir(), `verdaccio`),
   port: 4873, // default
   max_body_size: `1000mb`,
   web: {

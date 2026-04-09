@@ -3,14 +3,14 @@ import {
   InferEntityType,
   OrderChangeActionDTO,
   OrderDTO,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   ChangeActionType,
   createRawPropertiesFromBigNumber,
   decorateCartTotals,
   isDefined,
   MathBN,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { OrderCreditLine, OrderItem, OrderShippingMethod } from "@models"
 import { calculateOrderChange } from "./calculate-order-change"
 

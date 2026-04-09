@@ -1,6 +1,6 @@
-import { ILockingProvider } from "@medusajs/framework/types"
-import { isDefined, MedusaService } from "@medusajs/framework/utils"
-import { EntityManager } from "@medusajs/framework/mikro-orm/core"
+import { ILockingProvider } from "@freshbox-medusa/framework/types"
+import { isDefined, MedusaService } from "@freshbox-medusa/framework/utils"
+import { EntityManager } from "@freshbox-medusa/framework/mikro-orm/core"
 import { Locking } from "@models"
 
 type InjectedDependencies = {

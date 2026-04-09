@@ -1,6 +1,6 @@
-import IndexModule from "@medusajs/index"
+import IndexModule from "@freshbox-medusa/index"
 
-export * from "@medusajs/index"
+export * from "@freshbox-medusa/index"
 
 export default IndexModule
-export const discoveryPath = require.resolve("@medusajs/index")
+export const discoveryPath = require.resolve("@freshbox-medusa/index")

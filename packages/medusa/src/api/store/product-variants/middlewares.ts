@@ -1,4 +1,4 @@
-import { validateAndTransformQuery } from "@medusajs/framework"
+import { validateAndTransformQuery } from "@freshbox-medusa/framework"
 import {
   applyDefaultFilters,
   applyParamsAsFilters,
@@ -6,8 +6,8 @@ import {
   clearFiltersByKey,
   maybeApplyLinkFilter,
   MiddlewareRoute,
-} from "@medusajs/framework/http"
-import { ProductStatus } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/http"
+import { ProductStatus } from "@freshbox-medusa/framework/utils"
 import {
   filterByValidSalesChannels,
   normalizeDataForContext,

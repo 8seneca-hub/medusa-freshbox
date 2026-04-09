@@ -1,8 +1,8 @@
 import {
   ProviderIdentifyAnalyticsEventDTO,
   ProviderTrackAnalyticsEventDTO,
-} from "@medusajs/framework/types"
-import { AbstractAnalyticsProviderService } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/types"
+import { AbstractAnalyticsProviderService } from "@freshbox-medusa/framework/utils"
 
 export class AnalyticsProviderServiceFixtures extends AbstractAnalyticsProviderService {
   static identifier = "fixtures-analytics-provider"

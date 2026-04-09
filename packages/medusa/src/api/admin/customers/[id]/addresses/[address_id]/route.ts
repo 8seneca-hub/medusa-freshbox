@@ -1,19 +1,19 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import {
   deleteCustomerAddressesWorkflow,
   updateCustomerAddressesWorkflow,
-} from "@medusajs/core-flows"
+} from "@freshbox-medusa/core-flows"
 
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { AdminCreateCustomerAddressType } from "../../../validators"
 import { refetchCustomer } from "../../../helpers"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
+import { AdditionalData, HttpTypes } from "@freshbox-medusa/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<HttpTypes.SelectParams>,

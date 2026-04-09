@@ -1,5 +1,5 @@
-import { ModuleJoinerConfig } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
+import { ModuleJoinerConfig } from "@freshbox-medusa/framework/types"
+import { Modules } from "@freshbox-medusa/framework/utils"
 
 export const OrderCustomer: ModuleJoinerConfig = {
   isLink: true,

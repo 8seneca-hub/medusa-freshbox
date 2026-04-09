@@ -1,14 +1,14 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { createCampaignsWorkflow } from "@medusajs/core-flows"
+} from "@freshbox-medusa/framework/http"
+import { createCampaignsWorkflow } from "@freshbox-medusa/core-flows"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { refetchCampaign } from "./helpers"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
+import { AdditionalData, HttpTypes } from "@freshbox-medusa/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<HttpTypes.AdminGetCampaignsParams>,

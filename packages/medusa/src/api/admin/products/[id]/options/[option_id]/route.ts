@@ -2,14 +2,14 @@ import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
   refetchEntity,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import {
   deleteProductOptionsWorkflow,
   updateProductOptionsWorkflow,
-} from "@medusajs/core-flows"
+} from "@freshbox-medusa/core-flows"
 
 import { remapKeysForProduct, remapProductResponse } from "../../../helpers"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
+import { AdditionalData, HttpTypes } from "@freshbox-medusa/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<HttpTypes.SelectParams>,

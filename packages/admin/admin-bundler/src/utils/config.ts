@@ -1,4 +1,4 @@
-import { VIRTUAL_MODULES } from "@medusajs/admin-shared"
+import { VIRTUAL_MODULES } from "@freshbox-medusa/admin-shared"
 import path from "path"
 import type { HmrOptions, InlineConfig } from "vite"
 import { injectTailwindCSS } from "../plugins/inject-tailwindcss"
@@ -10,7 +10,7 @@ export async function getViteConfig(
 ): Promise<InlineConfig> {
   const { searchForWorkspaceRoot, mergeConfig } = await import("vite")
   const { default: react } = await import("@vitejs/plugin-react")
-  const { default: medusa } = await import("@medusajs/admin-vite-plugin")
+  const { default: medusa } = await import("@freshbox-medusa/admin-vite-plugin")
 
   const getPort = await import("get-port")
   const hmrPort = process.env.HMR_PORT
@@ -41,9 +41,9 @@ export async function getViteConfig(
         "react-dom/client",
         "react-router-dom",
         "react-i18next",
-        "@medusajs/ui",
-        "@medusajs/dashboard",
-        "@medusajs/js-sdk",
+        "@freshbox-medusa/ui",
+        "@freshbox-medusa/dashboard",
+        "@freshbox-medusa/js-sdk",
         "@tanstack/react-query",
       ],
       exclude: [...VIRTUAL_MODULES],

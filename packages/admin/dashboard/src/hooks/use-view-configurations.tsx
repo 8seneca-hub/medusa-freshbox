@@ -1,6 +1,6 @@
 import { useMemo } from "react"
-import { toast } from "@medusajs/ui"
-import { FetchError } from "@medusajs/js-sdk"
+import { toast } from "@freshbox-medusa/ui"
+import { FetchError } from "@freshbox-medusa/js-sdk"
 import { useFeatureFlag } from "../providers/feature-flag-provider"
 import {
   useViewConfigurations as useViewConfigurationsBase,

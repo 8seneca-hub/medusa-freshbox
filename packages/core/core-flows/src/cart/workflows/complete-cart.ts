@@ -4,14 +4,14 @@ import {
   LinkDefinition,
   PromotionDTO,
   UsageComputedActions,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   EventPriority,
   isDefined,
   Modules,
   OrderStatus,
   OrderWorkflowEvents,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import {
   createHook,
   createWorkflow,
@@ -20,7 +20,7 @@ import {
   when,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import {
   createRemoteLinkStep,
   emitEventStep,
@@ -104,13 +104,13 @@ export const completeCartWorkflowId = "complete-cart"
  *   createWorkflow,
  *   when,
  *   WorkflowResponse
- * } from "@medusajs/framework/workflows-sdk"
+ * } from "@freshbox-medusa/framework/workflows-sdk"
  * import {
  *   useQueryGraphStep,
  *   completeCartWorkflow,
  *   acquireLockStep,
  *   releaseLockStep
- * } from "@medusajs/framework/workflows-sdk"
+ * } from "@freshbox-medusa/framework/workflows-sdk"
  * import digitalProductOrderOrderLink from "../../links/digital-product-order"
  *
  * type WorkflowInput = {
@@ -178,9 +178,9 @@ export const completeCartWorkflowId = "complete-cart"
  * you can cancel the order if the validation fails. For example:
  *
  * ```ts
- * import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
- * import { MedusaError } from "@medusajs/framework/utils"
- * import { cancelOrderWorkflow } from "@medusajs/medusa/core-flows"
+ * import { createStep, StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
+ * import { MedusaError } from "@freshbox-medusa/framework/utils"
+ * import { cancelOrderWorkflow } from "@freshbox-medusa/medusa/core-flows"
  *
  * type StepInput = {
  *   order_id: string
@@ -223,8 +223,8 @@ export const completeCartWorkflowId = "complete-cart"
  *   createWorkflow,
  *   when,
  *   WorkflowResponse
- * } from "@medusajs/framework/workflows-sdk"
- * import { useQueryGraphStep } from "@medusajs/framework/workflows-sdk"
+ * } from "@freshbox-medusa/framework/workflows-sdk"
+ * import { useQueryGraphStep } from "@freshbox-medusa/framework/workflows-sdk"
  * import ticketOrderLink from "../../links/ticket-order"
  *
  * type WorkflowInput = {

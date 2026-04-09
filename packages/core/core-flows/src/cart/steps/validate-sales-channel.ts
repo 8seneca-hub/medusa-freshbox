@@ -1,7 +1,7 @@
-import { MedusaError } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { MedusaError } from "@freshbox-medusa/framework/utils"
+import { createStep, StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
 
-import type { SalesChannelDTO } from "@medusajs/framework/types"
+import type { SalesChannelDTO } from "@freshbox-medusa/framework/types"
 
 export const validateSalesChannelStep = createStep(
   "validate-sales-channel",

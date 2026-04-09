@@ -4,14 +4,14 @@ import {
   OrderLineItemDTO,
   OrderWorkflow,
   ReturnDTO,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   MedusaError,
   OrderStatus,
   arrayDifference,
   deepFlatMap,
   isPresent,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 
 export function throwIfOrderIsCancelled({ order }: { order: OrderDTO }) {
   if (order.status === OrderStatus.CANCELED) {

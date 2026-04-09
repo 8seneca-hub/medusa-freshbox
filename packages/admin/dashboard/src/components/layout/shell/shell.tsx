@@ -1,5 +1,5 @@
-import { SidebarLeft, TriangleRightMini, XMark } from "@medusajs/icons"
-import { IconButton, clx } from "@medusajs/ui"
+import { SidebarLeft, TriangleRightMini, XMark } from "@freshbox-medusa/icons"
+import { IconButton, clx } from "@freshbox-medusa/ui"
 import { AnimatePresence } from "motion/react"
 import { Dialog as RadixDialog } from "radix-ui"
 import { PropsWithChildren, ReactNode, useEffect, useState } from "react"

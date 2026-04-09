@@ -1,11 +1,11 @@
-import type { UserWorkflow } from "@medusajs/framework/types"
-import { Modules, UserWorkflowEvents } from "@medusajs/framework/utils"
+import type { UserWorkflow } from "@freshbox-medusa/framework/types"
+import { Modules, UserWorkflowEvents } from "@freshbox-medusa/framework/utils"
 import {
   WorkflowData,
   createWorkflow,
   parallelize,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { emitEventStep, removeRemoteLinkStep } from "../../common"
 import { deleteUsersStep } from "../steps"
 

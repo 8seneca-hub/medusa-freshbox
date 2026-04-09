@@ -3,7 +3,7 @@ import {
   transform,
   when,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import {
   createApiKeysStep,
   linkSalesChannelsToApiKeyWorkflow,

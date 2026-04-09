@@ -1,5 +1,5 @@
-import { createMedusaContainer } from "@medusajs/utils"
-import { asFunction, Lifetime } from "@medusajs/deps/awilix"
+import { createMedusaContainer } from "@freshbox-medusa/utils"
+import { asFunction, Lifetime } from "@freshbox-medusa/deps/awilix"
 import { moduleProviderLoader } from "../module-provider-loader"
 
 describe("modules loader", () => {

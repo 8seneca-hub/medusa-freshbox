@@ -1,5 +1,5 @@
-import { ShoppingBag, TruckFast } from "@medusajs/icons"
-import { Container, Heading } from "@medusajs/ui"
+import { ShoppingBag, TruckFast } from "@freshbox-medusa/icons"
+import { Container, Heading } from "@freshbox-medusa/ui"
 import { useTranslation } from "react-i18next"
 
 import { useStockLocations } from "../../../hooks/api/stock-locations"

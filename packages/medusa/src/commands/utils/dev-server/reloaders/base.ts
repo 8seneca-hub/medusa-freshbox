@@ -1,4 +1,4 @@
-import { Logger } from "@medusajs/framework/types"
+import { Logger } from "@freshbox-medusa/framework/types"
 import { ModuleCacheManager } from "../module-cache-manager"
 import { FileChangeAction } from "../types"
 

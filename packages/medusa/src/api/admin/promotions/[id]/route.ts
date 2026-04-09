@@ -1,18 +1,18 @@
 import {
   deletePromotionsWorkflow,
   updatePromotionsWorkflow,
-} from "@medusajs/core-flows"
+} from "@freshbox-medusa/core-flows"
 import {
   ContainerRegistrationKeys,
   MedusaError,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import { refetchPromotion } from "../helpers"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
+import { AdditionalData, HttpTypes } from "@freshbox-medusa/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<HttpTypes.AdminGetPromotionParams>,

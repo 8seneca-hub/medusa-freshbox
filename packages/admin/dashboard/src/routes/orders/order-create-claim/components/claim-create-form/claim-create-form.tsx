@@ -1,11 +1,11 @@
 import { zodResolver } from "@hookform/resolvers/zod"
-import { InformationCircleSolid, PencilSquare } from "@medusajs/icons"
+import { InformationCircleSolid, PencilSquare } from "@freshbox-medusa/icons"
 import {
   AdminClaim,
   AdminOrder,
   AdminOrderPreview,
   InventoryLevelDTO,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 import {
   Alert,
   Button,
@@ -17,7 +17,7 @@ import {
   toast,
   Tooltip,
   usePrompt,
-} from "@medusajs/ui"
+} from "@freshbox-medusa/ui"
 import { useEffect, useMemo, useState } from "react"
 import { useFieldArray, useForm } from "react-hook-form"
 import { useTranslation } from "react-i18next"
@@ -38,7 +38,7 @@ import { AddClaimItemsTable } from "../add-claim-items-table"
 import { ClaimInboundItem } from "./claim-inbound-item.tsx"
 import { ClaimCreateSchema, CreateClaimSchemaType } from "./schema"
 
-import { AdminReturn, HttpTypes } from "@medusajs/types"
+import { AdminReturn, HttpTypes } from "@freshbox-medusa/types"
 import { KeyboundForm } from "../../../../../components/utilities/keybound-form/keybound-form.tsx"
 import {
   useAddClaimInboundItems,

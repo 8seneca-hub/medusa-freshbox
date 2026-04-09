@@ -1,6 +1,6 @@
-import { Checkbox, Text, clx } from "@medusajs/ui"
+import { Checkbox, Text, clx } from "@freshbox-medusa/ui"
 
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@freshbox-medusa/types"
 
 type LocationItemProps = {
   selected: boolean

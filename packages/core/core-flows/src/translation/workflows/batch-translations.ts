@@ -3,8 +3,8 @@ import {
   parallelize,
   transform,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
-import { CreateTranslationDTO, UpdateTranslationDTO } from "@medusajs/types"
+} from "@freshbox-medusa/framework/workflows-sdk"
+import { CreateTranslationDTO, UpdateTranslationDTO } from "@freshbox-medusa/types"
 import { createTranslationsWorkflow } from "./create-translations"
 import { deleteTranslationsWorkflow } from "./delete-translations"
 import { updateTranslationsWorkflow } from "./update-translations"

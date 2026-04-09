@@ -3,9 +3,9 @@ import {
   FilterableCustomerAddressProps,
   ICustomerModuleService,
   UpdateCustomerAddressDTO,
-} from "@medusajs/framework/types"
-import { Modules, isDefined } from "@medusajs/framework/utils"
-import { createStep } from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/types"
+import { Modules, isDefined } from "@freshbox-medusa/framework/utils"
+import { createStep } from "@freshbox-medusa/framework/workflows-sdk"
 import { unsetForCreate, unsetForUpdate } from "./utils"
 
 /**

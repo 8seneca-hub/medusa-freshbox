@@ -1,5 +1,5 @@
-import { simpleHash } from "@medusajs/framework/utils"
-import { IndexTypes, InferEntityType, Logger } from "@medusajs/types"
+import { simpleHash } from "@freshbox-medusa/framework/utils"
+import { IndexTypes, InferEntityType, Logger } from "@freshbox-medusa/types"
 import { IndexMetadata } from "@models"
 import { schemaObjectRepresentationPropertiesToOmit } from "@types"
 import { DataSynchronizer } from "../../services/data-synchronizer"

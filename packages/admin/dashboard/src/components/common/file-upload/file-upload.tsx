@@ -1,5 +1,5 @@
-import { ArrowDownTray } from "@medusajs/icons"
-import { Text, clx } from "@medusajs/ui"
+import { ArrowDownTray } from "@freshbox-medusa/icons"
+import { Text, clx } from "@freshbox-medusa/ui"
 import { ChangeEvent, DragEvent, useRef, useState } from "react"
 
 export interface FileType {

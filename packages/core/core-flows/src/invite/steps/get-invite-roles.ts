@@ -1,5 +1,5 @@
-import { ContainerRegistrationKeys, Modules } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import { ContainerRegistrationKeys, Modules } from "@freshbox-medusa/framework/utils"
+import { StepResponse, createStep } from "@freshbox-medusa/framework/workflows-sdk"
 
 /**
  * @ignore

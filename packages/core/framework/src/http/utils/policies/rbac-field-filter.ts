@@ -4,9 +4,9 @@ import {
   PolicyResource,
   promiseAll,
   toSnakeCase,
-} from "@medusajs/framework/utils"
-import { MedusaModule } from "@medusajs/modules-sdk"
-import type { MedusaContainer } from "@medusajs/types"
+} from "@freshbox-medusa/framework/utils"
+import { MedusaModule } from "@freshbox-medusa/modules-sdk"
+import type { MedusaContainer } from "@freshbox-medusa/types"
 import { hasPermission } from "../../../policies/has-permission"
 import { FieldFilterContext, IFieldFilter } from "../field-filtering/index"
 

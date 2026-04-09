@@ -1,14 +1,14 @@
 import {
   ContainerRegistrationKeys,
   MedusaError,
-} from "@medusajs/framework/utils"
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/utils"
+import { MedusaRequest, MedusaResponse } from "@freshbox-medusa/framework/http"
 
 import {
   deleteInventoryLevelsWorkflow,
   updateInventoryLevelsWorkflow,
-} from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+} from "@freshbox-medusa/core-flows"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 import { refetchInventoryItem } from "../../../helpers"
 
 export const DELETE = async (

@@ -1,6 +1,6 @@
-import { addDraftOrderItemsWorkflow } from "@medusajs/core-flows"
-import { AuthenticatedMedusaRequest, MedusaResponse } from "@medusajs/framework"
-import { HttpTypes } from "@medusajs/types"
+import { addDraftOrderItemsWorkflow } from "@freshbox-medusa/core-flows"
+import { AuthenticatedMedusaRequest, MedusaResponse } from "@freshbox-medusa/framework"
+import { HttpTypes } from "@freshbox-medusa/types"
 import { AdminAddDraftOrderItemsType } from "../../../validators"
 
 export const POST = async (

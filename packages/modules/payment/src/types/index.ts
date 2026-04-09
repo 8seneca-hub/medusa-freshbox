@@ -2,7 +2,7 @@ import {
   Logger,
   ModuleProviderExports,
   ModuleServiceInitializeOptions,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 
 export type InitializeModuleInjectableDependencies = {
   logger?: Logger
@@ -28,9 +28,9 @@ export type PaymentModuleOptions = Partial<ModuleServiceInitializeOptions> & {
   }[]
 }
 
-declare module "@medusajs/types" {
+declare module "@freshbox-medusa/types" {
   interface ModuleOptions {
-    "@medusajs/payment": PaymentModuleOptions
-    "@medusajs/medusa/payment": PaymentModuleOptions
+    "@freshbox-medusa/payment": PaymentModuleOptions
+    "@freshbox-medusa/medusa/payment": PaymentModuleOptions
   }
 }

@@ -1,9 +1,9 @@
-import type { FileDTO } from "@medusajs/framework/types"
+import type { FileDTO } from "@freshbox-medusa/framework/types"
 import {
   createWorkflow,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { uploadFilesStep } from "../steps"
 
 /**

@@ -1,12 +1,12 @@
-import { isDefined } from "@medusajs/framework/utils"
+import { isDefined } from "@freshbox-medusa/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   transform,
   when,
-} from "@medusajs/framework/workflows-sdk"
-import { UpdateRbacRoleDTO } from "@medusajs/types"
+} from "@freshbox-medusa/framework/workflows-sdk"
+import { UpdateRbacRoleDTO } from "@freshbox-medusa/types"
 import { createRbacRolePoliciesStep, setRoleParentStep } from "../steps"
 import { updateRbacRolesStep } from "../steps/update-rbac-roles"
 import { validateUserPermissionsStep } from "../steps/validate-user-permissions"

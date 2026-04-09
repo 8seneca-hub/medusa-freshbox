@@ -1,7 +1,7 @@
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { moduleIntegrationTestRunner } from "@freshbox-medusa/test-utils"
 
-import { IStockLocationService } from "@medusajs/framework/types"
-import { Module, Modules } from "@medusajs/framework/utils"
+import { IStockLocationService } from "@freshbox-medusa/framework/types"
+import { Module, Modules } from "@freshbox-medusa/framework/utils"
 import { StockLocationModuleService } from "../../src/services"
 
 jest.setTimeout(100000)

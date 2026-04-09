@@ -1,4 +1,4 @@
-import { isDefined } from "@medusajs/utils"
+import { isDefined } from "@freshbox-medusa/utils"
 import { ParsedFields } from "./index"
 
 /**

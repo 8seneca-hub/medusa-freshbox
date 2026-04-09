@@ -2,15 +2,15 @@ import {
   PricingRuleOperator,
   RuleOperator,
   ShippingOptionPriceType as ShippingOptionPriceTypeEnum,
-} from "@medusajs/framework/utils"
-import { z } from "@medusajs/framework/zod"
+} from "@freshbox-medusa/framework/utils"
+import { z } from "@freshbox-medusa/framework/zod"
 import { booleanString } from "../../utils/common-validators"
 import {
   createFindParams,
   createOperatorMap,
   createSelectParams,
 } from "../../utils/validators"
-import { isDefined } from "@medusajs/utils"
+import { isDefined } from "@freshbox-medusa/utils"
 
 export type AdminGetShippingOptionParamsType = z.infer<
   typeof AdminGetShippingOptionParams

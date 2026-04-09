@@ -1,12 +1,12 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { StoreProductTypeResponse } from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/http"
+import { StoreProductTypeResponse } from "@freshbox-medusa/framework/types"
 import {
   ContainerRegistrationKeys,
   MedusaError,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 
 import { StoreProductTypeParamsType } from "../validators"
 

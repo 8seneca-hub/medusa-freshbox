@@ -1,6 +1,6 @@
-import { CurrencyDollar } from "@medusajs/icons"
-import { AdminCampaign } from "@medusajs/types"
-import { Container, Heading, Text } from "@medusajs/ui"
+import { CurrencyDollar } from "@freshbox-medusa/icons"
+import { AdminCampaign } from "@freshbox-medusa/types"
+import { Container, Heading, Text } from "@freshbox-medusa/ui"
 import { Trans, useTranslation } from "react-i18next"
 
 type CampaignSpendProps = {

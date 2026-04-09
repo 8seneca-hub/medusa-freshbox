@@ -1,9 +1,9 @@
 import {
   validateAndTransformBody,
   validateAndTransformQuery,
-} from "@medusajs/framework"
-import { maybeApplyLinkFilter, MiddlewareRoute } from "@medusajs/framework/http"
-import { FeatureFlag, PolicyOperation } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework"
+import { maybeApplyLinkFilter, MiddlewareRoute } from "@freshbox-medusa/framework/http"
+import { FeatureFlag, PolicyOperation } from "@freshbox-medusa/framework/utils"
 import multer from "multer"
 import IndexEngineFeatureFlag from "../../../feature-flags/index-engine"
 import { DEFAULT_BATCH_ENDPOINTS_SIZE_LIMIT } from "../../../utils/middlewares"

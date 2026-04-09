@@ -1,10 +1,10 @@
-import { createLocationFulfillmentSetWorkflow } from "@medusajs/core-flows"
+import { createLocationFulfillmentSetWorkflow } from "@freshbox-medusa/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import { refetchStockLocation } from "../../helpers"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<

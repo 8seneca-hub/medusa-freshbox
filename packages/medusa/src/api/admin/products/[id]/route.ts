@@ -1,15 +1,15 @@
 import {
   deleteProductsWorkflow,
   updateProductsWorkflow,
-} from "@medusajs/core-flows"
+} from "@freshbox-medusa/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import { remapKeysForProduct, remapProductResponse } from "../helpers"
-import { MedusaError } from "@medusajs/framework/utils"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
-import { refetchEntity } from "@medusajs/framework/http"
+import { MedusaError } from "@freshbox-medusa/framework/utils"
+import { AdditionalData, HttpTypes } from "@freshbox-medusa/framework/types"
+import { refetchEntity } from "@freshbox-medusa/framework/http"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<HttpTypes.SelectParams>,

@@ -2,7 +2,7 @@ import {
   AdminProductVariant,
   AdminProductVariantInventoryItemLink,
   OrderLineItemDTO,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 
 /**
  * Check if the line item has inventory kit.

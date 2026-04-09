@@ -152,15 +152,19 @@
     "test:integration:api": "turbo run test:integration:chunk --no-daemon --no-cache --force --filter=integration-tests-api",
     "test:integration:http": "turbo run test:integration:chunk --no-daemon --no-cache --force --filter=integration-tests-http",
     "test:integration:modules": "turbo run test:integration:chunk --no-daemon --no-cache --force --filter=integration-tests-modules",
-    "generate:http-types": "yarn workspace @medusajs/http-types-generator generate:http-types",
-    "validate:http-types": "yarn workspace @medusajs/http-types-generator validate:http-types",
+    "generate:http-types": "yarn workspace @freshbox-medusa/http-types-generator generate:http-types",
+    "validate:http-types": "yarn workspace @freshbox-medusa/http-types-generator validate:http-types",
     "openapi:generate": "yarn ./packages/cli/oas/oas-github-ci run ci --with-full-file",
     "medusa-oas": "yarn ./packages/cli/oas/medusa-oas-cli run medusa-oas",
     "release:snapshot": "changeset publish --no-git-tags --snapshot --tag snapshot",
     "release:next": "chgstangeset publish --no-git-tags --snapshot --tag next",
     "version:next": "changeset version --snapshot next",
     "release": "changeset publish",
-    "version": "changeset version && yarn install --no-immutable"
+    "version": "changeset version && yarn install --no-immutable",
+    "publish:check-and-publish": "node scripts/publish-new-packages.js",
+    "publish:providers": "node scripts/publish-providers.js",
+    "release:core": "node scripts/release-core-packages.js",
+    "release:core-flows": "node scripts/release-workflow.js"
   },
   "dependencies": {
     "@changesets/changelog-github": "^0.4.8",

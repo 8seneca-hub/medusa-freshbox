@@ -1,4 +1,4 @@
-import { model } from "@medusajs/framework/utils"
+import { model } from "@freshbox-medusa/framework/utils"
 
 const PricePreference = model
   .define("PricePreference", {

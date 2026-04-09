@@ -1,14 +1,14 @@
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
+import { MedusaRequest, MedusaResponse } from "@freshbox-medusa/framework/http"
 import {
   AuthenticationInput,
   ConfigModule,
   IAuthModuleService,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   ContainerRegistrationKeys,
   MedusaError,
   Modules,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { generateJwtTokenForAuthIdentity } from "../../../utils/generate-jwt-token"
 
 export const GET = async (req: MedusaRequest, res: MedusaResponse) => {

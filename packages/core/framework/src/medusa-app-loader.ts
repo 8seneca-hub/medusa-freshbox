@@ -8,7 +8,7 @@ import {
   MedusaModule,
   ModulesDefinition,
   RegisterModuleJoinerConfig,
-} from "@medusajs/modules-sdk"
+} from "@freshbox-medusa/modules-sdk"
 import {
   CommonTypes,
   ConfigModule,
@@ -18,16 +18,16 @@ import {
   LoadedModule,
   ModuleDefinition,
   ModuleServiceInitializeOptions,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 import {
   ContainerRegistrationKeys,
   isBoolean,
   isObject,
   isPresent,
   upperCaseFirst,
-} from "@medusajs/utils"
+} from "@freshbox-medusa/utils"
 
-import type { Knex } from "@medusajs/framework/mikro-orm/knex"
+import type { Knex } from "@freshbox-medusa/framework/mikro-orm/knex"
 import { aliasTo, asValue } from "./deps/awilix"
 import { configManager } from "./config"
 import {

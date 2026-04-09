@@ -2,7 +2,7 @@ import {
   IAnalyticsProvider,
   ProviderIdentifyAnalyticsEventDTO,
   ProviderTrackAnalyticsEventDTO,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 
 /**
  * ### constructor
@@ -15,8 +15,8 @@ import {
  * #### Example
  *
  * ```ts
- * import { Logger } from "@medusajs/framework/types"
- * import { AbstractAnalyticsProviderService } from "@medusajs/framework/utils"
+ * import { Logger } from "@freshbox-medusa/framework/types"
+ * import { AbstractAnalyticsProviderService } from "@freshbox-medusa/framework/utils"
  *
  * type InjectedDependencies = {
  *   logger: Logger

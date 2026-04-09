@@ -1,14 +1,14 @@
-import { logger } from "@medusajs/framework/logger"
+import { logger } from "@freshbox-medusa/framework/logger"
 import {
   ExternalModuleDeclaration,
   InternalModuleDeclaration,
   ModuleJoinerConfig,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   ContainerRegistrationKeys,
   createPgConnection,
   promiseAll,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 
 export interface InitModulesOptions {
   injectedDependencies?: Record<string, unknown>
@@ -35,7 +35,7 @@ export async function initModules({
   preventConnectionDestroyWarning = false,
   cwd,
 }: InitModulesOptions) {
-  const moduleSdkImports = require("@medusajs/framework/modules-sdk")
+  const moduleSdkImports = require("@freshbox-medusa/framework/modules-sdk")
 
   injectedDependencies ??= {}
 

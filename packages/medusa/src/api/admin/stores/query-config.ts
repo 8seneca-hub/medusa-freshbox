@@ -1,4 +1,4 @@
-import { FeatureFlag } from "@medusajs/framework/utils"
+import { FeatureFlag } from "@freshbox-medusa/framework/utils"
 import TranslationFeatureFlag from "../../../feature-flags/translation"
 
 export enum Entities {

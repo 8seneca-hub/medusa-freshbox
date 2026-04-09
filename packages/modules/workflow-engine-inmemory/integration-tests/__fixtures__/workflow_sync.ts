@@ -1,10 +1,10 @@
-import { isPresent } from "@medusajs/framework/utils"
+import { isPresent } from "@freshbox-medusa/framework/utils"
 import {
   createStep,
   createWorkflow,
   StepResponse,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 
 const step_1 = createStep(
   "step_1",

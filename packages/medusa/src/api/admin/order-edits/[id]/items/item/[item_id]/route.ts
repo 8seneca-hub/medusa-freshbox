@@ -1,9 +1,9 @@
-import { orderEditUpdateItemQuantityWorkflow } from "@medusajs/core-flows"
+import { orderEditUpdateItemQuantityWorkflow } from "@freshbox-medusa/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { HttpTypes } from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/http"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 import { AdminPostOrderEditsUpdateItemQuantityReqSchemaType } from "../../../../validators"
 
 export const POST = async (

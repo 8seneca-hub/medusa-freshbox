@@ -1,7 +1,7 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest,

@@ -1,6 +1,6 @@
-import { Modules } from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
-import { IAuthModuleService } from "@medusajs/types"
+import { Modules } from "@freshbox-medusa/framework/utils"
+import { moduleIntegrationTestRunner } from "@freshbox-medusa/test-utils"
+import { IAuthModuleService } from "@freshbox-medusa/types"
 import jwt from "jsonwebtoken"
 
 jest.setTimeout(30000)

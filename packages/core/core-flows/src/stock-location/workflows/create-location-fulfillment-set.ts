@@ -1,9 +1,9 @@
-import type { CreateLocationFulfillmentSetWorkflowInputDTO } from "@medusajs/framework/types"
+import type { CreateLocationFulfillmentSetWorkflowInputDTO } from "@freshbox-medusa/framework/types"
 import {
   WorkflowData,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { createFulfillmentSets } from "../../fulfillment"
 import { associateFulfillmentSetsWithLocationStep } from "../steps/associate-locations-with-fulfillment-sets"
 

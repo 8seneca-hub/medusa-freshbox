@@ -2,7 +2,7 @@ import {
   IEventBusModuleService,
   Logger,
   ProductTypes,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 
 export type InitializeModuleInjectableDependencies = {
   logger?: Logger

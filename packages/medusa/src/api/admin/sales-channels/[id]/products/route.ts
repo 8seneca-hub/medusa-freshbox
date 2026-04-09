@@ -1,10 +1,10 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 
-import { linkProductsToSalesChannelWorkflow } from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+import { linkProductsToSalesChannelWorkflow } from "@freshbox-medusa/core-flows"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 import { refetchSalesChannel } from "../../helpers"
 
 export const POST = async (

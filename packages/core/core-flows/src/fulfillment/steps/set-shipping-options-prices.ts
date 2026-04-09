@@ -8,15 +8,15 @@ import {
   PriceDTO,
   PriceSetDTO,
   RemoteQueryFunction,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   ContainerRegistrationKeys,
   LINKS,
   Modules,
   isDefined,
   isString,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/utils"
+import { StepResponse, createStep } from "@freshbox-medusa/framework/workflows-sdk"
 
 interface PriceRegionId {
   region_id: string

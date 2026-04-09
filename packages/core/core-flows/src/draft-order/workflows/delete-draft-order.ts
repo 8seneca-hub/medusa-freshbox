@@ -4,9 +4,9 @@ import {
   transform,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
-import type { OrderDTO } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/workflows-sdk"
+import type { OrderDTO } from "@freshbox-medusa/framework/types"
+import { Modules } from "@freshbox-medusa/framework/utils"
 
 import { removeRemoteLinkStep, useQueryGraphStep } from "../../common"
 import { deleteDraftOrdersStep } from "../steps"

@@ -1,14 +1,14 @@
-import type { PaymentCollectionDTO } from "@medusajs/framework/types"
+import type { PaymentCollectionDTO } from "@freshbox-medusa/framework/types"
 import {
   MedusaError,
   Modules,
   PaymentCollectionStatus,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import {
   createStep,
   createWorkflow,
   WorkflowData,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { removeRemoteLinkStep, useQueryGraphStep } from "../../common"
 
 /**

@@ -1,6 +1,6 @@
-import TranslationModule from "@medusajs/translation"
+import TranslationModule from "@freshbox-medusa/translation"
 
-export * from "@medusajs/translation"
+export * from "@freshbox-medusa/translation"
 
 export default TranslationModule
-export const discoveryPath = require.resolve("@medusajs/translation")
+export const discoveryPath = require.resolve("@freshbox-medusa/translation")

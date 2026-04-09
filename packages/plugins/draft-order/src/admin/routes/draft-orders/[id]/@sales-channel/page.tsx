@@ -1,6 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod"
-import { HttpTypes } from "@medusajs/types"
-import { Button, Heading, toast } from "@medusajs/ui"
+import { HttpTypes } from "@freshbox-medusa/types"
+import { Button, Heading, toast } from "@freshbox-medusa/ui"
 import { Control, useForm } from "react-hook-form"
 import { useParams } from "react-router-dom"
 import { z } from "zod"

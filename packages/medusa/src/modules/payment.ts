@@ -1,6 +1,6 @@
-import PaymentModule from "@medusajs/payment"
+import PaymentModule from "@freshbox-medusa/payment"
 
-export * from "@medusajs/payment"
+export * from "@freshbox-medusa/payment"
 
 export default PaymentModule
-export const discoveryPath = require.resolve("@medusajs/payment")
+export const discoveryPath = require.resolve("@freshbox-medusa/payment")

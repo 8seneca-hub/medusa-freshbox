@@ -1,7 +1,7 @@
-import { Link } from "@medusajs/framework/modules-sdk"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { Link } from "@freshbox-medusa/framework/modules-sdk"
+import { createStep, StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
 
-import { ContainerRegistrationKeys, Modules } from "@medusajs/framework/utils"
+import { ContainerRegistrationKeys, Modules } from "@freshbox-medusa/framework/utils"
 
 /**
  * The data to detach stock locations from sales channels.

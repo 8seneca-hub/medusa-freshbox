@@ -1,7 +1,7 @@
-import { ICurrencyModuleService } from "@medusajs/framework/types"
-import { Module, Modules } from "@medusajs/framework/utils"
+import { ICurrencyModuleService } from "@freshbox-medusa/framework/types"
+import { Module, Modules } from "@freshbox-medusa/framework/utils"
 import { CurrencyModuleService } from "@services"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { moduleIntegrationTestRunner } from "@freshbox-medusa/test-utils"
 
 jest.setTimeout(100000)
 

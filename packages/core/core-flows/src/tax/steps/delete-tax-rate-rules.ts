@@ -1,6 +1,6 @@
-import type { ITaxModuleService } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import type { ITaxModuleService } from "@freshbox-medusa/framework/types"
+import { Modules } from "@freshbox-medusa/framework/utils"
+import { StepResponse, createStep } from "@freshbox-medusa/framework/workflows-sdk"
 
 /**
  * The IDs of the tax rate rules to delete.

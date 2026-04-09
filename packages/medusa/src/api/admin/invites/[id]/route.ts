@@ -1,11 +1,11 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { MedusaError } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/http"
+import { MedusaError } from "@freshbox-medusa/framework/utils"
 
-import { deleteInvitesWorkflow } from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+import { deleteInvitesWorkflow } from "@freshbox-medusa/core-flows"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 import { refetchInvite } from "../helpers"
 
 export const GET = async (

@@ -1,12 +1,12 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { HttpTypes } from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/http"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import {
   ruleQueryConfigurations,
   validateRuleAttribute,
@@ -15,7 +15,7 @@ import {
 import {
   ApplicationMethodTargetTypeValues,
   RuleTypeValues,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 
 /*
   This endpoint returns all the potential values for rules (promotion rules, target rules and buy rules)

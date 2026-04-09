@@ -1,9 +1,9 @@
-import { SchedulerOptions } from "@medusajs/framework/orchestration"
+import { SchedulerOptions } from "@freshbox-medusa/framework/orchestration"
 import {
   createStep,
   createWorkflow,
   StepResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 
 export const createScheduled = (
   name: string,

@@ -8,13 +8,13 @@ import {
   ModulesSdkTypes,
   PerformedActions,
   UpsertWithReplaceConfig,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 import {
   EventType,
   type EntityClass,
   type EntityManager,
   type EntitySchema,
-} from "@medusajs/deps/mikro-orm/core"
+} from "@freshbox-medusa/deps/mikro-orm/core"
 import {
   isDefined,
   isObject,

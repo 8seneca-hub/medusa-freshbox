@@ -1,8 +1,8 @@
-import { MathBN } from "@medusajs/framework/utils"
+import { MathBN } from "@freshbox-medusa/framework/utils"
 import {
     ComputeActionItemLine,
     ComputeActionShippingLine,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 
 export function sortLineItemByPriceAscending(
   a: ComputeActionItemLine,

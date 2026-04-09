@@ -1,12 +1,12 @@
-import { logger } from "@medusajs/framework/logger"
-import { CustomDBMigrator } from "@medusajs/framework/utils"
+import { logger } from "@freshbox-medusa/framework/logger"
+import { CustomDBMigrator } from "@freshbox-medusa/framework/utils"
 
 import {
   defineConfig,
   MikroORM,
   Options,
   SqlEntityManager,
-} from "@medusajs/framework/mikro-orm/postgresql"
+} from "@freshbox-medusa/framework/mikro-orm/postgresql"
 import { createDatabase, dropDatabase } from "pg-god"
 import { execOrTimeout } from "./medusa-test-runner-utils"
 

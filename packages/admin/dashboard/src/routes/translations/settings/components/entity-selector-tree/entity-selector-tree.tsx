@@ -1,5 +1,5 @@
-import { TriangleRightMini } from "@medusajs/icons"
-import { Checkbox, clx, Divider, Text } from "@medusajs/ui"
+import { TriangleRightMini } from "@freshbox-medusa/icons"
+import { Checkbox, clx, Divider, Text } from "@freshbox-medusa/ui"
 import React, { useImperativeHandle, useMemo, useState, useEffect } from "react"
 
 export type EntityField = {

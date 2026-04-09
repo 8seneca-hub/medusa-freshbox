@@ -1,11 +1,11 @@
-import { defineRouteConfig } from "@medusajs/admin-sdk"
-import type { HttpTypes } from "@medusajs/types"
+import { defineRouteConfig } from "@freshbox-medusa/admin-sdk"
+import type { HttpTypes } from "@freshbox-medusa/types"
 import {
   Container,
   createDataTableColumnHelper,
   DataTableFilter,
   Tooltip,
-} from "@medusajs/ui"
+} from "@freshbox-medusa/ui"
 import { keepPreviousData } from "@tanstack/react-query"
 import { Fragment, useMemo } from "react"
 import { Outlet } from "react-router-dom"

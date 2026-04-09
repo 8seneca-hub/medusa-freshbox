@@ -1,11 +1,11 @@
-import type { FulfillmentWorkflow } from "@medusajs/framework/types"
+import type { FulfillmentWorkflow } from "@freshbox-medusa/framework/types"
 import {
   MedusaError,
   Modules,
   ShippingOptionPriceType,
-} from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
-import type { CreateShippingOptionDTO } from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/utils"
+import { createStep, StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
+import type { CreateShippingOptionDTO } from "@freshbox-medusa/framework/types"
 
 /**
  * The data to validate shipping option prices.

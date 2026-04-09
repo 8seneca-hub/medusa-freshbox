@@ -1,5 +1,5 @@
-import { FetchError } from "@medusajs/js-sdk"
-import { PaginatedResponse } from "@medusajs/types"
+import { FetchError } from "@freshbox-medusa/js-sdk"
+import { PaginatedResponse } from "@freshbox-medusa/types"
 import {
   QueryKey,
   UseInfiniteQueryOptions,

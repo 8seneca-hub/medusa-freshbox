@@ -1,15 +1,15 @@
 import {
   deleteCustomerGroupsWorkflow,
   updateCustomerGroupsWorkflow,
-} from "@medusajs/core-flows"
+} from "@freshbox-medusa/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 
-import { MedusaError } from "@medusajs/framework/utils"
+import { MedusaError } from "@freshbox-medusa/framework/utils"
 import { refetchCustomerGroup } from "../helpers"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<HttpTypes.SelectParams>,

@@ -1,30 +1,30 @@
-import { MedusaContainer } from "@medusajs/framework"
-import { asFunction } from "@medusajs/framework/awilix"
+import { MedusaContainer } from "@freshbox-medusa/framework"
+import { asFunction } from "@freshbox-medusa/framework/awilix"
 import {
   DistributedTransactionType,
   TransactionState,
   WorkflowManager,
-} from "@medusajs/framework/orchestration"
+} from "@freshbox-medusa/framework/orchestration"
 import {
   Context,
   IWorkflowEngineService,
   Logger,
   RemoteQueryFunction,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   ContainerRegistrationKeys,
   Module,
   Modules,
   promiseAll,
   TransactionHandlerType,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import {
   createStep,
   createWorkflow,
   StepResponse,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@freshbox-medusa/framework/workflows-sdk"
+import { moduleIntegrationTestRunner } from "@freshbox-medusa/test-utils"
 import { WorkflowsModuleService } from "@services"
 import { setTimeout as setTimeoutSync } from "timers"
 import { setTimeout as setTimeoutPromise } from "timers/promises"

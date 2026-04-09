@@ -1,8 +1,8 @@
 import {
   MiddlewareRoute,
   validateAndTransformBody,
-} from "@medusajs/framework/http"
-import { PolicyOperation } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/http"
+import { PolicyOperation } from "@freshbox-medusa/framework/utils"
 import { Entities } from "./query-config"
 import {
   AdminPostOrderEditsAddItemsReqSchema,

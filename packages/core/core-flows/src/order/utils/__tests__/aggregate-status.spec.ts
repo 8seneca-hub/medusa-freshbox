@@ -1,7 +1,7 @@
 import {
   MathBN,
   MEDUSA_DEFAULT_CURRENCY_EPSILON,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import {
   getLastFulfillmentStatus,
   getLastPaymentStatus,

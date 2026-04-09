@@ -2,8 +2,8 @@ import {
   createWorkflow,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
-import { Modules } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/workflows-sdk"
+import { Modules } from "@freshbox-medusa/framework/utils"
 
 import { deleteInventoryItemStep, validateInventoryDeleteStep } from "../steps"
 import { removeRemoteLinkStep } from "../../common/steps/remove-remote-links"

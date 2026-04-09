@@ -1,5 +1,5 @@
-import { ClaimReason, ClaimType } from "@medusajs/framework/utils"
-import { z } from "@medusajs/framework/zod"
+import { ClaimReason, ClaimType } from "@freshbox-medusa/framework/utils"
+import { z } from "@freshbox-medusa/framework/zod"
 import {
   createFindParams,
   createOperatorMap,

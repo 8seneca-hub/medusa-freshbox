@@ -1,9 +1,9 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { IAuthModuleService } from "@medusajs/framework/types"
-import { MedusaError, Modules } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/http"
+import { IAuthModuleService } from "@freshbox-medusa/framework/types"
+import { MedusaError, Modules } from "@freshbox-medusa/framework/utils"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest,

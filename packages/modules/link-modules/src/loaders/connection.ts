@@ -3,10 +3,10 @@ import {
   LoaderOptions,
   ModuleServiceInitializeCustomDataLayerOptions,
   ModuleServiceInitializeOptions,
-} from "@medusajs/framework/types"
-import { ModulesSdkUtils } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/types"
+import { ModulesSdkUtils } from "@freshbox-medusa/framework/utils"
 
-import { EntitySchema } from "@medusajs/framework/mikro-orm/core"
+import { EntitySchema } from "@freshbox-medusa/framework/mikro-orm/core"
 
 export function connectionLoader(entity: EntitySchema) {
   return async (

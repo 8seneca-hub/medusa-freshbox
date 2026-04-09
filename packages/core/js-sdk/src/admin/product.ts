@@ -1,4 +1,4 @@
-import { HttpTypes, SelectParams } from "@medusajs/types"
+import { HttpTypes, SelectParams } from "@freshbox-medusa/types"
 import { Client, FetchError } from "../client"
 import { ClientHeaders } from "../types"
 

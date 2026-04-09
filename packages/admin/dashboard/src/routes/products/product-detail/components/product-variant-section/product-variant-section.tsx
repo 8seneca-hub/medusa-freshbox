@@ -4,8 +4,8 @@ import {
   GlobeEurope,
   PencilSquare,
   Trash,
-} from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
+} from "@freshbox-medusa/icons"
+import { HttpTypes } from "@freshbox-medusa/types"
 import {
   Badge,
   clx,
@@ -16,7 +16,7 @@ import {
   DataTableAction,
   Tooltip,
   usePrompt,
-} from "@medusajs/ui"
+} from "@freshbox-medusa/ui"
 import { keepPreviousData } from "@tanstack/react-query"
 import { useCallback, useMemo } from "react"
 import { useTranslation } from "react-i18next"

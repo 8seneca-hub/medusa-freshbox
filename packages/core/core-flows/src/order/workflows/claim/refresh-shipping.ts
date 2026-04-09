@@ -1,11 +1,11 @@
-import { ChangeActionType, OrderChangeStatus } from "@medusajs/framework/utils"
+import { ChangeActionType, OrderChangeStatus } from "@freshbox-medusa/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   transform,
   when,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 
 import { maybeRefreshShippingMethodsWorkflow } from "../maybe-refresh-shipping-methods"
 import { useQueryGraphStep } from "../../../common"

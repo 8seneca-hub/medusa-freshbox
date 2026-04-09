@@ -1,4 +1,4 @@
-import { FlagSettings, Logger } from "@medusajs/types"
+import { FlagSettings, Logger } from "@freshbox-medusa/types"
 import {
   isDefined,
   isObject,

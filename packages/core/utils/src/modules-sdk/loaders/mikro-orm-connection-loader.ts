@@ -1,9 +1,9 @@
-import { Logger, MedusaContainer, ModulesSdkTypes } from "@medusajs/types"
+import { Logger, MedusaContainer, ModulesSdkTypes } from "@freshbox-medusa/types"
 import {
   PostgreSqlDriver,
   SqlEntityManager,
-} from "@medusajs/deps/mikro-orm/postgresql"
-import { asValue } from "@medusajs/deps/awilix"
+} from "@freshbox-medusa/deps/mikro-orm/postgresql"
+import { asValue } from "@freshbox-medusa/deps/awilix"
 import { ContainerRegistrationKeys, MedusaError } from "../../common"
 import { mikroOrmCreateConnection } from "../../dal"
 import { isSharedConnectionSymbol } from "../create-pg-connection"

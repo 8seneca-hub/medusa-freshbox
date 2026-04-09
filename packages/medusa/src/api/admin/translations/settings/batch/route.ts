@@ -1,7 +1,7 @@
-import { batchTranslationSettingsWorkflow } from "@medusajs/core-flows"
-import { AuthenticatedMedusaRequest, MedusaResponse } from "@medusajs/framework"
-import { defineFileConfig, FeatureFlag } from "@medusajs/framework/utils"
-import { HttpTypes } from "@medusajs/types"
+import { batchTranslationSettingsWorkflow } from "@freshbox-medusa/core-flows"
+import { AuthenticatedMedusaRequest, MedusaResponse } from "@freshbox-medusa/framework"
+import { defineFileConfig, FeatureFlag } from "@freshbox-medusa/framework/utils"
+import { HttpTypes } from "@freshbox-medusa/types"
 import TranslationFeatureFlag from "../../../../../feature-flags/translation"
 
 /**

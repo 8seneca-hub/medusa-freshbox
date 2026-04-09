@@ -8,13 +8,13 @@ import {
   OrderWorkflow,
   ProductVariantDTO,
   ReservationItemDTO,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   MathBN,
   MedusaError,
   Modules,
   OrderWorkflowEvents,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import {
   createHook,
   createStep,
@@ -23,7 +23,7 @@ import {
   transform,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import {
   emitEventStep,
   useQueryGraphStep,

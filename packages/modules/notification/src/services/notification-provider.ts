@@ -3,8 +3,8 @@ import {
   InferEntityType,
   Logger,
   NotificationTypes,
-} from "@medusajs/framework/types"
-import { ModulesSdkUtils } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/types"
+import { ModulesSdkUtils } from "@freshbox-medusa/framework/utils"
 import { NotificationProvider } from "@models"
 import { NotificationProviderRegistrationPrefix } from "@types"
 

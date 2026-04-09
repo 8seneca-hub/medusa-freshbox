@@ -6,14 +6,14 @@ import {
   LoaderOptions,
   ModuleJoinerConfig,
   ModulesSdkTypes,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   composeLinkName,
   composeTableName,
   simpleHash,
   toPascalCase,
-} from "@medusajs/framework/utils"
-import { asClass, asValue } from "@medusajs/framework/awilix"
+} from "@freshbox-medusa/framework/utils"
+import { asClass, asValue } from "@freshbox-medusa/framework/awilix"
 export function containerLoader(entity, joinerConfig: ModuleJoinerConfig) {
   return async (
     {

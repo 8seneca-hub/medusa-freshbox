@@ -1,9 +1,9 @@
-import { moduleProviderLoader } from "@medusajs/framework/modules-sdk"
-import { LoaderOptions, ModulesSdkTypes } from "@medusajs/framework/types"
+import { moduleProviderLoader } from "@freshbox-medusa/framework/modules-sdk"
+import { LoaderOptions, ModulesSdkTypes } from "@freshbox-medusa/framework/types"
 import {
   ContainerRegistrationKeys,
   getProviderRegistrationKey,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { CachingProviderService } from "@services"
 import {
   CachingDefaultProvider,

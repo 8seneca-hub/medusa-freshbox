@@ -1,5 +1,5 @@
-import { isPresent, MedusaError } from "@medusajs/framework/utils"
-import { createStep } from "@medusajs/framework/workflows-sdk"
+import { isPresent, MedusaError } from "@freshbox-medusa/framework/utils"
+import { createStep } from "@freshbox-medusa/framework/workflows-sdk"
 
 /**
  * This step validates the presence of attributes on an object

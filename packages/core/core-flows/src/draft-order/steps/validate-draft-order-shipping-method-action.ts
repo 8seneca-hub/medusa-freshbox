@@ -1,10 +1,10 @@
-import { ChangeActionType, MedusaError } from "@medusajs/framework/utils"
-import { createStep } from "@medusajs/framework/workflows-sdk"
+import { ChangeActionType, MedusaError } from "@freshbox-medusa/framework/utils"
+import { createStep } from "@freshbox-medusa/framework/workflows-sdk"
 import {
   OrderChangeActionDTO,
   OrderChangeDTO,
   OrderWorkflow,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 
 /**
  * The details of the draft order and its change to validate.

@@ -1,10 +1,10 @@
-import type { WorkflowTypes } from "@medusajs/framework/types"
+import type { WorkflowTypes } from "@freshbox-medusa/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { notifyOnFailureStep, sendNotificationsStep } from "../../notification"
 import {
   normalizeCsvToChunksStep,
@@ -46,14 +46,14 @@ export const importProductsAsChunksWorkflowId = "import-products-as-chunks"
  * import {
  *   AuthenticatedMedusaRequest,
  *   MedusaResponse,
- * } from "@medusajs/framework/http"
+ * } from "@freshbox-medusa/framework/http"
  * import {
  *   importProductsAsChunksWorkflowId,
  *   waitConfirmationProductImportStepId,
- * } from "@medusajs/core-flows"
- * import type { IWorkflowEngineService } from "@medusajs/framework/types"
- * import { Modules, TransactionHandlerType } from "@medusajs/framework/utils"
- * import { StepResponse } from "@medusajs/framework/workflows-sdk"
+ * } from "@freshbox-medusa/core-flows"
+ * import type { IWorkflowEngineService } from "@freshbox-medusa/framework/types"
+ * import { Modules, TransactionHandlerType } from "@freshbox-medusa/framework/utils"
+ * import { StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
  *
  * export const POST = async (
  *   req: AuthenticatedMedusaRequest,

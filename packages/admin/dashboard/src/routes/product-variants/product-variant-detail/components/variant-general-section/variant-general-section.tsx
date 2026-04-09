@@ -1,6 +1,6 @@
-import { Component, GlobeEurope, PencilSquare, Trash } from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
-import { Badge, Container, Heading, usePrompt } from "@medusajs/ui"
+import { Component, GlobeEurope, PencilSquare, Trash } from "@freshbox-medusa/icons"
+import { HttpTypes } from "@freshbox-medusa/types"
+import { Badge, Container, Heading, usePrompt } from "@freshbox-medusa/ui"
 import { useTranslation } from "react-i18next"
 import { useNavigate } from "react-router-dom"
 

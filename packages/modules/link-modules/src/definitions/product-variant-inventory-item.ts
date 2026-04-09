@@ -1,5 +1,5 @@
-import { ModuleJoinerConfig } from "@medusajs/framework/types"
-import { LINKS, Modules } from "@medusajs/framework/utils"
+import { ModuleJoinerConfig } from "@freshbox-medusa/framework/types"
+import { LINKS, Modules } from "@freshbox-medusa/framework/utils"
 
 export const ProductVariantInventoryItem: ModuleJoinerConfig = {
   serviceName: LINKS.ProductVariantInventoryItem,

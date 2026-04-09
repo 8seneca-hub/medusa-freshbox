@@ -1,6 +1,6 @@
 {
-  "name": "@medusajs/orchestration",
-  "version": "2.13.5",
+  "name": "@freshbox-medusa/orchestration",
+  "version": "1.0.3",
   "description": "Medusa utilities to orchestrate modules",
   "main": "dist/index.js",
   "exports": {
@@ -26,11 +26,11 @@
   "author": "Medusa",
   "license": "MIT",
   "devDependencies": {
-    "@medusajs/types": "2.13.5"
+    "@freshbox-medusa/types": "1.0.3"
   },
   "dependencies": {
-    "@medusajs/deps": "2.13.5",
-    "@medusajs/utils": "2.13.5",
+    "@freshbox-medusa/deps": "1.0.3",
+    "@freshbox-medusa/utils": "1.0.3",
     "ulid": "^2.3.0"
   },
   "scripts": {

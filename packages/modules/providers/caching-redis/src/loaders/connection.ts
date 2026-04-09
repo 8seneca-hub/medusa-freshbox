@@ -2,7 +2,7 @@ import type {
   InternalModuleDeclaration,
   LoaderOptions,
   ModulesSdkTypes,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import { RedisCacheModuleOptions } from "@types"
 import Redis, { type RedisOptions } from "ioredis"
 

@@ -2,8 +2,8 @@ import {
   Context,
   CreateOrderChangeActionDTO,
   OrderTypes,
-} from "@medusajs/framework/types"
-import { ChangeActionType } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/types"
+import { ChangeActionType } from "@freshbox-medusa/framework/utils"
 
 export async function registerShipment(
   this: any,

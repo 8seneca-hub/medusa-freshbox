@@ -1,6 +1,6 @@
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
-import { HttpTypes } from "@medusajs/framework/types"
-import { ContainerRegistrationKeys, isString } from "@medusajs/framework/utils"
+import { MedusaRequest, MedusaResponse } from "@freshbox-medusa/framework/http"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
+import { ContainerRegistrationKeys, isString } from "@freshbox-medusa/framework/utils"
 
 export const GET = async (
   req: MedusaRequest<unknown>,

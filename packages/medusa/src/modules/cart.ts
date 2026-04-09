@@ -1,6 +1,6 @@
-import CartModule from "@medusajs/cart"
+import CartModule from "@freshbox-medusa/cart"
 
-export * from "@medusajs/cart"
+export * from "@freshbox-medusa/cart"
 
 export default CartModule
-export const discoveryPath = require.resolve("@medusajs/cart")
+export const discoveryPath = require.resolve("@freshbox-medusa/cart")

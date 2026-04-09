@@ -1,5 +1,5 @@
-import { InventoryTypes } from "@medusajs/types"
-import { Button, Container, Heading, Text } from "@medusajs/ui"
+import { InventoryTypes } from "@freshbox-medusa/types"
+import { Button, Container, Heading, Text } from "@freshbox-medusa/ui"
 
 import { RowSelectionState } from "@tanstack/react-table"
 import { useState } from "react"

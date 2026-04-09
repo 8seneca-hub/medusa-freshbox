@@ -1,4 +1,4 @@
-import { z } from "@medusajs/framework/zod"
+import { z } from "@freshbox-medusa/framework/zod"
 import { applyAndAndOrOperators } from "../../utils/common-validators"
 import { createFindParams, createSelectParams } from "../../utils/validators"
 

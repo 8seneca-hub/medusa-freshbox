@@ -1,5 +1,5 @@
-import { Modules } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import { Modules } from "@freshbox-medusa/framework/utils"
+import { StepResponse, createStep } from "@freshbox-medusa/framework/workflows-sdk"
 
 export type SetActiveViewConfigurationStepInput = {
   id: string

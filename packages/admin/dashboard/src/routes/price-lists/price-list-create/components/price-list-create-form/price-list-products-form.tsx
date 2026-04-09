@@ -1,5 +1,5 @@
-import { HttpTypes } from "@medusajs/types"
-import { Checkbox } from "@medusajs/ui"
+import { HttpTypes } from "@freshbox-medusa/types"
+import { Checkbox } from "@freshbox-medusa/ui"
 import { keepPreviousData } from "@tanstack/react-query"
 import {
   OnChangeFn,

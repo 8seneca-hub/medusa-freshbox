@@ -1,11 +1,11 @@
-import { MedusaAppLoader, Migrator } from "@medusajs/framework"
-import { LinkLoader } from "@medusajs/framework/links"
+import { MedusaAppLoader, Migrator } from "@freshbox-medusa/framework"
+import { LinkLoader } from "@freshbox-medusa/framework/links"
 import {
   ContainerRegistrationKeys,
   getResolvedPlugins,
   MedusaError,
   mergePluginModules,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { join } from "path"
 import { initializeContainer } from "../../loaders"
 import { ensureDbExists } from "../utils"

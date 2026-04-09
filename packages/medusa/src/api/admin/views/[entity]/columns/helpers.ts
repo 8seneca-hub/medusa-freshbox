@@ -10,9 +10,9 @@ import {
   extractRelationsFromGQL,
   cleanGraphQLSchema,
   print,
-} from "@medusajs/framework/utils"
-import { HttpTypes } from "@medusajs/types"
-import { MedusaModule } from "@medusajs/framework/modules-sdk"
+} from "@freshbox-medusa/framework/utils"
+import { HttpTypes } from "@freshbox-medusa/types"
+import { MedusaModule } from "@freshbox-medusa/framework/modules-sdk"
 import { ENTITY_MAPPINGS } from "./entity-mappings"
 
 // Determine column category based on field characteristics

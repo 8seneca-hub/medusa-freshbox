@@ -1,5 +1,5 @@
-import { z } from "@medusajs/deps/zod"
-import { dynamicImport, FileSystem, isFileSkipped } from "@medusajs/utils"
+import { z } from "@freshbox-medusa/deps/zod"
+import { dynamicImport, FileSystem, isFileSkipped } from "@freshbox-medusa/utils"
 import { join } from "path"
 
 import { logger } from "../logger"

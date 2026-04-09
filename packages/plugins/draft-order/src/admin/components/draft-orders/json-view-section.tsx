@@ -4,7 +4,7 @@ import {
   SquareTwoStack,
   TriangleDownMini,
   XMarkMini,
-} from "@medusajs/icons"
+} from "@freshbox-medusa/icons"
 import {
   Badge,
   Container,
@@ -12,7 +12,7 @@ import {
   Heading,
   IconButton,
   Kbd,
-} from "@medusajs/ui"
+} from "@freshbox-medusa/ui"
 import Primitive from "@uiw/react-json-view"
 import { CSSProperties, MouseEvent, Suspense, useState } from "react"
 

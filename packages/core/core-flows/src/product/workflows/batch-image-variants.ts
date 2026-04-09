@@ -5,8 +5,8 @@ import {
   parallelize,
   transform,
   when,
-} from "@medusajs/framework/workflows-sdk"
-import { ProductTypes } from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/workflows-sdk"
+import { ProductTypes } from "@freshbox-medusa/framework/types"
 import {
   addImageToVariantsStep,
   removeImageFromVariantsStep,

@@ -1,12 +1,12 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { HttpTypes, QueryContextType } from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/http"
+import { HttpTypes, QueryContextType } from "@freshbox-medusa/framework/types"
 import {
   ContainerRegistrationKeys,
   QueryContext,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { wrapVariantsWithInventoryQuantityForSalesChannel } from "../../utils/middlewares"
 import { StoreRequestWithContext } from "../types"
 import { wrapVariantsWithTaxPrices } from "./helpers"

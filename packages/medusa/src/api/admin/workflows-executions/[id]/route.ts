@@ -1,14 +1,14 @@
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 
 import { AdminGetWorkflowExecutionDetailsParamsType } from "../validators"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<AdminGetWorkflowExecutionDetailsParamsType>,

@@ -4,12 +4,12 @@ import {
   logger,
   MedusaAppLoader,
   Migrator,
-} from "@medusajs/framework"
-import { asValue } from "@medusajs/framework/awilix"
-import { MedusaAppOutput, MedusaModule } from "@medusajs/framework/modules-sdk"
-import { ContainerRegistrationKeys, Modules } from "@medusajs/framework/utils"
-import { initDb, TestDatabaseUtils } from "@medusajs/test-utils"
-import { IndexTypes, ModulesSdkTypes } from "@medusajs/types"
+} from "@freshbox-medusa/framework"
+import { asValue } from "@freshbox-medusa/framework/awilix"
+import { MedusaAppOutput, MedusaModule } from "@freshbox-medusa/framework/modules-sdk"
+import { ContainerRegistrationKeys, Modules } from "@freshbox-medusa/framework/utils"
+import { initDb, TestDatabaseUtils } from "@freshbox-medusa/test-utils"
+import { IndexTypes, ModulesSdkTypes } from "@freshbox-medusa/types"
 import { Configuration } from "@utils"
 import path from "path"
 import { setTimeout } from "timers/promises"

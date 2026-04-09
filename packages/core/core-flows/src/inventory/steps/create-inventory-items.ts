@@ -1,10 +1,10 @@
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import { StepResponse, createStep } from "@freshbox-medusa/framework/workflows-sdk"
 
 import type {
   IInventoryService,
   InventoryTypes,
-} from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/types"
+import { Modules } from "@freshbox-medusa/framework/utils"
 
 /**
  * The data to create the inventory items.

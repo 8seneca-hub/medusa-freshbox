@@ -1,5 +1,5 @@
-import { PencilSquare, Trash } from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
+import { PencilSquare, Trash } from "@freshbox-medusa/icons"
+import { HttpTypes } from "@freshbox-medusa/types"
 import {
   Container,
   Heading,
@@ -7,7 +7,7 @@ import {
   Text,
   toast,
   usePrompt,
-} from "@medusajs/ui"
+} from "@freshbox-medusa/ui"
 import { useTranslation } from "react-i18next"
 import { useNavigate } from "react-router-dom"
 

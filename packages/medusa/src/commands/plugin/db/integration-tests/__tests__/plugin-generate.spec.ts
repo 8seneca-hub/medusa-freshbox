@@ -1,9 +1,9 @@
-import { logger } from "@medusajs/framework"
-import { FileSystem } from "@medusajs/framework/utils"
+import { logger } from "@freshbox-medusa/framework"
+import { FileSystem } from "@freshbox-medusa/framework/utils"
 import { join } from "path"
 import main from "../../generate"
 
-jest.mock("@medusajs/framework/logger")
+jest.mock("@freshbox-medusa/framework/logger")
 
 describe("plugin-generate", () => {
   beforeEach(() => {

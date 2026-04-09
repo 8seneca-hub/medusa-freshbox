@@ -1,8 +1,8 @@
-import "@medusajs/utils"
-export * from "@medusajs/types"
+import "@freshbox-medusa/utils"
+export * from "@freshbox-medusa/types"
 
-import type { ModuleOptions as ModuleOptionsType } from "@medusajs/types"
+import type { ModuleOptions as ModuleOptionsType } from "@freshbox-medusa/types"
 
-// Re-declare ModuleOptions to enable augmentation from @medusajs/framework/types
-// EventBusEventsOptions is exported via "export *" and gets augmentations from @medusajs/utils
+// Re-declare ModuleOptions to enable augmentation from @freshbox-medusa/framework/types
+// EventBusEventsOptions is exported via "export *" and gets augmentations from @freshbox-medusa/utils
 export interface ModuleOptions extends ModuleOptionsType {}

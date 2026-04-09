@@ -1,4 +1,4 @@
-import { model } from "@medusajs/framework/utils"
+import { model } from "@freshbox-medusa/framework/utils"
 
 const RbacPolicy = model
   .define("rbac_policy", {

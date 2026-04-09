@@ -2,14 +2,14 @@ import {
   HttpTypes,
   ItemTaxLineDTO,
   TaxableItemDTO,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   calculateAmountsWithTax,
   FeatureFlag,
   Modules,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { StoreRequestWithContext } from "../types"
-import { applyTranslationsToTaxLines } from "@medusajs/framework/utils"
+import { applyTranslationsToTaxLines } from "@freshbox-medusa/framework/utils"
 import TranslationFeatureFlag from "../../../feature-flags/translation"
 
 export const wrapVariantsWithTaxPrices = async <T>(

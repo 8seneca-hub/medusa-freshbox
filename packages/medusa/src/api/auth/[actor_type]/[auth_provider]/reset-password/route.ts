@@ -1,9 +1,9 @@
-import { generateResetPasswordTokenWorkflow } from "@medusajs/core-flows"
+import { generateResetPasswordTokenWorkflow } from "@freshbox-medusa/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { ContainerRegistrationKeys } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/http"
+import { ContainerRegistrationKeys } from "@freshbox-medusa/framework/utils"
 import { ResetPasswordRequestType } from "../../../validators"
 
 export const POST = async (

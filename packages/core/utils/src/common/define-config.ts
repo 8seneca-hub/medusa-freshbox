@@ -7,7 +7,7 @@ import {
   InputConfigWithObjectModules,
   InternalModuleDeclaration,
   MedusaCloudOptions,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 import { FeatureFlag } from "../feature-flags/flag-router"
 import {
   MODULE_PACKAGE_NAMES,
@@ -145,8 +145,8 @@ function resolvePlugins(
 ): ConfigModule["plugins"] {
   const defaultPlugins: Map<string, ConfigModule["plugins"][number]> = new Map([
     [
-      "@medusajs/draft-order",
-      { resolve: "@medusajs/draft-order", options: {} },
+      "@freshbox-medusa/draft-order",
+      { resolve: "@freshbox-medusa/draft-order", options: {} },
     ],
   ])
 
@@ -210,7 +210,7 @@ function resolveModules(
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/auth-emailpass",
+            resolve: "@freshbox-medusa/medusa/auth-emailpass",
             id: "emailpass",
           },
         ],
@@ -230,7 +230,7 @@ function resolveModules(
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/fulfillment-manual",
+            resolve: "@freshbox-medusa/medusa/fulfillment-manual",
             id: "manual",
           },
         ],
@@ -241,7 +241,7 @@ function resolveModules(
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/notification-local",
+            resolve: "@freshbox-medusa/medusa/notification-local",
             id: "local",
             options: {
               name: "Local Notification Provider",
@@ -265,7 +265,7 @@ function resolveModules(
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/file-local",
+            resolve: "@freshbox-medusa/medusa/file-local",
             id: "local",
           },
         ],
@@ -281,7 +281,7 @@ function resolveModules(
         providers: [
           {
             id: "s3",
-            resolve: "@medusajs/medusa/file-s3",
+            resolve: "@freshbox-medusa/medusa/file-s3",
             options: {
               authentication_method: "s3-iam-role",
               file_url: process.env.S3_FILE_URL,
@@ -352,7 +352,7 @@ function resolveModules(
         providers: [
           {
             id: "caching-redis",
-            resolve: "@medusajs/medusa/caching-redis",
+            resolve: "@freshbox-medusa/medusa/caching-redis",
             is_default: true,
             options: {
               redisUrl: process.env.CACHE_REDIS_URL,

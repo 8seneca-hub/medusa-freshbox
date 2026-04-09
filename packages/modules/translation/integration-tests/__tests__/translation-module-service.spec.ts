@@ -1,6 +1,6 @@
-import { ITranslationModuleService } from "@medusajs/framework/types"
-import { DmlEntity, Module, Modules } from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { ITranslationModuleService } from "@freshbox-medusa/framework/types"
+import { DmlEntity, Module, Modules } from "@freshbox-medusa/framework/utils"
+import { moduleIntegrationTestRunner } from "@freshbox-medusa/test-utils"
 import TranslationModuleService from "@services/translation-module"
 import { createLocaleFixture, createTranslationFixture } from "../__fixtures__"
 

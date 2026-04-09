@@ -1,5 +1,5 @@
-import { MedusaContainer } from "@medusajs/framework/types"
-import { ContainerRegistrationKeys } from "@medusajs/framework/utils"
+import { MedusaContainer } from "@freshbox-medusa/framework/types"
+import { ContainerRegistrationKeys } from "@freshbox-medusa/framework/utils"
 
 export const refetchShippingOptionType = async (
   shippingOptionTypeId: string,

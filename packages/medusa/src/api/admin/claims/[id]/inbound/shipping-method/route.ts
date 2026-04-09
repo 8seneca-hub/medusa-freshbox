@@ -1,14 +1,14 @@
-import { createClaimShippingMethodWorkflow } from "@medusajs/core-flows"
+import { createClaimShippingMethodWorkflow } from "@freshbox-medusa/core-flows"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { HttpTypes } from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/http"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 import { defaultAdminDetailsReturnFields } from "../../../../returns/query-config"
 import { AdminPostReturnsShippingReqSchemaType } from "../../../../returns/validators"
 

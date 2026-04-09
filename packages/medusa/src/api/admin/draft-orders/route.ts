@@ -1,23 +1,23 @@
 import {
   createOrderWorkflow,
   getOrdersListWorkflow,
-} from "@medusajs/core-flows"
+} from "@freshbox-medusa/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import {
   AdditionalData,
   CreateOrderDTO,
   HttpTypes,
   OrderDTO,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   ContainerRegistrationKeys,
   OrderStatus,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { refetchOrder } from "./helpers"
 
 export const GET = async (

@@ -3,7 +3,7 @@ import {
   InferEntityType,
   PromotionRuleDTO,
   PromotionRuleOperatorValues,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   ApplicationMethodTargetType,
   MathBN,
@@ -12,7 +12,7 @@ import {
   isPresent,
   isString,
   pickValueFromObject,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { PromotionRule } from "@models"
 import { CreatePromotionRuleDTO } from "@types"
 

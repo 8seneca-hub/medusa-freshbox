@@ -1,6 +1,6 @@
-import { PencilSquare } from "@medusajs/icons"
-import { AdminStore } from "@medusajs/types"
-import { Badge, Container, Heading, Text } from "@medusajs/ui"
+import { PencilSquare } from "@freshbox-medusa/icons"
+import { AdminStore } from "@freshbox-medusa/types"
+import { Badge, Container, Heading, Text } from "@freshbox-medusa/ui"
 import { useTranslation } from "react-i18next"
 
 import { Link } from "react-router-dom"

@@ -1,4 +1,4 @@
-import { OrderTypes } from "@medusajs/framework/types"
+import { OrderTypes } from "@freshbox-medusa/framework/types"
 
 export type CreateOrderTaxLineDTO = OrderTypes.CreateOrderTaxLineDTO
 

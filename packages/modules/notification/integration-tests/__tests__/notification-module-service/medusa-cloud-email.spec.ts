@@ -1,6 +1,6 @@
-import { INotificationModuleService } from "@medusajs/framework/types"
-import { Modules, NotificationStatus } from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { INotificationModuleService } from "@freshbox-medusa/framework/types"
+import { Modules, NotificationStatus } from "@freshbox-medusa/framework/utils"
+import { moduleIntegrationTestRunner } from "@freshbox-medusa/test-utils"
 import { resolve } from "path"
 
 jest.setTimeout(30000)

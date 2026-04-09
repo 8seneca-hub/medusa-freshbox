@@ -1,6 +1,6 @@
-import { FilterableProductProps, OperatorMap } from "@medusajs/framework/types"
-import { isPresent, ProductStatus } from "@medusajs/framework/utils"
-import { z } from "@medusajs/framework/zod"
+import { FilterableProductProps, OperatorMap } from "@freshbox-medusa/framework/types"
+import { isPresent, ProductStatus } from "@freshbox-medusa/framework/utils"
+import { z } from "@freshbox-medusa/framework/zod"
 import { createOperatorMap } from "../../validators"
 import { booleanString } from "../common"
 

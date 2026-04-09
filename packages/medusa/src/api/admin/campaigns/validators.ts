@@ -1,5 +1,5 @@
-import { CampaignBudgetType, isPresent } from "@medusajs/framework/utils"
-import { z } from "@medusajs/framework/zod"
+import { CampaignBudgetType, isPresent } from "@freshbox-medusa/framework/utils"
+import { z } from "@freshbox-medusa/framework/zod"
 import {
   createFindParams,
   createSelectParams,

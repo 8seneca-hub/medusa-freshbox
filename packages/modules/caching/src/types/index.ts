@@ -5,8 +5,8 @@ import type {
   Logger,
   ModuleProviderExports,
   ModuleServiceInitializeOptions,
-} from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/types"
+import { Modules } from "@freshbox-medusa/framework/utils"
 import { default as CacheProviderService } from "../services/cache-provider"
 
 export const CachingDefaultProvider = "default_provider"
@@ -89,9 +89,9 @@ export type CachingModuleOptions = Partial<ModuleServiceInitializeOptions> & {
   }[]
 }
 
-declare module "@medusajs/types" {
+declare module "@freshbox-medusa/types" {
   interface ModuleOptions {
-    "@medusajs/caching": CachingModuleOptions
-    "@medusajs/medusa/caching": CachingModuleOptions
+    "@freshbox-medusa/caching": CachingModuleOptions
+    "@freshbox-medusa/medusa/caching": CachingModuleOptions
   }
 }

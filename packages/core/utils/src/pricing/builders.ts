@@ -4,7 +4,7 @@ import {
   PriceRuleDTO,
   ProductVariantDTO,
   UpdatePriceListPriceDTO,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 
 export function buildPriceListRules(
   priceListRules?: PriceListRuleDTO[]

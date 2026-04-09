@@ -2,7 +2,7 @@ import type {
   PluginDetails,
   ConfigModule,
   InputConfigModules,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 import { transformModules } from "./define-config"
 
 /**

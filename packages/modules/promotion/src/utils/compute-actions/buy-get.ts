@@ -3,14 +3,14 @@ import {
   ComputeActionItemLine,
   InferEntityType,
   PromotionTypes,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   ApplicationMethodTargetType,
   ComputedActions,
   MathBN,
   MedusaError,
   PromotionType,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { areRulesValidForContext } from "../validations"
 import { computeActionForBudgetExceeded } from "./usage"
 import { Promotion } from "@models"

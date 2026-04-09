@@ -1,4 +1,4 @@
-import { BigNumberInput } from "@medusajs/framework/types"
+import { BigNumberInput } from "@freshbox-medusa/framework/types"
 
 interface PartialUpsertOrderLineItemDTO {
   subtitle?: string

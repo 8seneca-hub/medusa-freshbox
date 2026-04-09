@@ -1,5 +1,5 @@
-import { Spinner } from "@medusajs/icons"
-import { Button, toast } from "@medusajs/ui"
+import { Spinner } from "@freshbox-medusa/icons"
+import { Button, toast } from "@freshbox-medusa/ui"
 import { useCallback, useEffect, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { decodeToken } from "react-jwt"

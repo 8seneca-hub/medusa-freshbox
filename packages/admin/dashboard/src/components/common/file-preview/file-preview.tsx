@@ -1,5 +1,5 @@
-import { ArrowDownTray, Spinner } from "@medusajs/icons"
-import { IconButton, Text } from "@medusajs/ui"
+import { ArrowDownTray, Spinner } from "@freshbox-medusa/icons"
+import { IconButton, Text } from "@freshbox-medusa/ui"
 import { ActionGroup, ActionMenu } from "../action-menu"
 
 export const FilePreview = ({

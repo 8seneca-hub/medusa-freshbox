@@ -1,4 +1,4 @@
-import pg from "@medusajs/deps/pg"
+import pg from "@freshbox-medusa/deps/pg"
 
 const { Client } = pg as any
 

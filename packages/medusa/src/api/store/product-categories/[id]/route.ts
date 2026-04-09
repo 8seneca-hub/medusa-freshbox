@@ -1,12 +1,12 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { StoreProductCategoryResponse } from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/http"
+import { StoreProductCategoryResponse } from "@freshbox-medusa/framework/types"
 import {
   ContainerRegistrationKeys,
   MedusaError,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { StoreProductCategoryParamsType } from "../validators"
 
 export const GET = async (

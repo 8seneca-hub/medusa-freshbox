@@ -1,13 +1,13 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import {
   ContainerRegistrationKeys,
   MedusaError,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
-import { HttpTypes } from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/utils"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 
 // TODO: Add more fields to provider, such as default name and maybe logo.
 export const GET = async (

@@ -1,11 +1,11 @@
-import { OrderChangeDTO, OrderDTO, PromotionDTO } from "@medusajs/framework/types"
-import { ChangeActionType } from "@medusajs/framework/utils"
+import { OrderChangeDTO, OrderDTO, PromotionDTO } from "@freshbox-medusa/framework/types"
+import { ChangeActionType } from "@freshbox-medusa/framework/utils"
 import {
   createWorkflow,
   transform,
   when,
   WorkflowData,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import {
   getActionsToComputeFromPromotionsStep,
   prepareAdjustmentsFromPromotionActionsStep,

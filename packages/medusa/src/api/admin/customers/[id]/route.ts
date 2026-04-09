@@ -1,13 +1,13 @@
 import {
   removeCustomerAccountWorkflow,
   updateCustomersWorkflow,
-} from "@medusajs/core-flows"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
-import { MedusaError } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/core-flows"
+import { AdditionalData, HttpTypes } from "@freshbox-medusa/framework/types"
+import { MedusaError } from "@freshbox-medusa/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import { refetchCustomer } from "../helpers"
 import { AdminUpdateCustomerType } from "../validators"
 

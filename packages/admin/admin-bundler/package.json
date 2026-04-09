@@ -1,8 +1,8 @@
 {
-  "name": "@medusajs/admin-bundler",
-  "version": "2.13.5",
+  "name": "@freshbox-medusa/admin-bundler",
+  "version": "1.0.3",
   "description": "Bundler for the Medusa admin dashboard.",
-  "author": "Kasper Kristensen <kasper@medusajs.com>",
+  "author": "Kasper Kristensen <kasper@freshbox-medusa.com>",
   "scripts": {
     "build": "yarn run -T tsup"
   },
@@ -18,12 +18,12 @@
     "package.json"
   ],
   "devDependencies": {
-    "@medusajs/types": "2.13.5"
+    "@freshbox-medusa/types": "1.0.3"
   },
   "dependencies": {
-    "@medusajs/admin-shared": "2.13.5",
-    "@medusajs/admin-vite-plugin": "2.13.5",
-    "@medusajs/dashboard": "2.13.5",
+    "@freshbox-medusa/admin-shared": "1.0.3",
+    "@freshbox-medusa/admin-vite-plugin": "1.0.3",
+    "@freshbox-medusa/dashboard": "1.0.3",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.19",
     "compression": "^1.8.0",

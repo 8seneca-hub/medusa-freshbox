@@ -3,13 +3,13 @@ import {
   CreatePriceSetDTO,
   IPricingModuleService,
   PricingTypes,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   Modules,
   PriceListStatus,
   PriceListType,
-} from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@freshbox-medusa/framework/utils"
+import { moduleIntegrationTestRunner } from "@freshbox-medusa/test-utils"
 import { withOperator } from "../../../__fixtures__/price-rule"
 import { seedPriceData } from "../../../__fixtures__/seed-price-data"
 

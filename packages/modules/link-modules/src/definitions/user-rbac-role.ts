@@ -1,10 +1,10 @@
-import { ModuleJoinerConfig } from "@medusajs/framework/types"
+import { ModuleJoinerConfig } from "@freshbox-medusa/framework/types"
 import {
   defineFileConfig,
   FeatureFlag,
   LINKS,
   Modules,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 
 export const UserRbacRole: ModuleJoinerConfig = {
   serviceName: LINKS.UserRbacRole,

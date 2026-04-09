@@ -1,5 +1,5 @@
-import "@medusajs/types"
-import "@medusajs/utils"
+import "@freshbox-medusa/types"
+import "@freshbox-medusa/utils"
 import "../types/container"
 
-export * from "@medusajs/utils"
+export * from "@freshbox-medusa/utils"

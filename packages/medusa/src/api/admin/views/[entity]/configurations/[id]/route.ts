@@ -1,11 +1,11 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import { AdminUpdateViewConfigurationType } from "../validators"
-import { HttpTypes } from "@medusajs/framework/types"
-import { MedusaError, Modules } from "@medusajs/framework/utils"
-import { updateViewConfigurationWorkflow } from "@medusajs/core-flows"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
+import { MedusaError, Modules } from "@freshbox-medusa/framework/utils"
+import { updateViewConfigurationWorkflow } from "@freshbox-medusa/core-flows"
 
 /**
  * @since 2.10.3

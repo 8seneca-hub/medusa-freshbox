@@ -3,8 +3,8 @@ import {
   OrderChangeDTO,
   OrderPreviewDTO,
   OrderWorkflow,
-} from "@medusajs/framework/types"
-import { ChangeActionType, OrderChangeStatus } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/types"
+import { ChangeActionType, OrderChangeStatus } from "@freshbox-medusa/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
@@ -12,7 +12,7 @@ import {
   createWorkflow,
   parallelize,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { useQueryGraphStep } from "../../../common"
 import { acquireLockStep, releaseLockStep } from "../../../locking"
 import { deleteOrderShippingMethods } from "../../steps"

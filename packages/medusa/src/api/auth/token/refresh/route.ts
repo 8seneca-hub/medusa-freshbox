@@ -1,9 +1,9 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { IAuthModuleService } from "@medusajs/framework/types"
-import { ContainerRegistrationKeys, Modules } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/http"
+import { IAuthModuleService } from "@freshbox-medusa/framework/types"
+import { ContainerRegistrationKeys, Modules } from "@freshbox-medusa/framework/utils"
 import { generateJwtTokenForAuthIdentity } from "../../utils/generate-jwt-token"
 
 // Retrieve a newly generated JWT token. All checks that the existing token is valid already happen in the auth middleware.

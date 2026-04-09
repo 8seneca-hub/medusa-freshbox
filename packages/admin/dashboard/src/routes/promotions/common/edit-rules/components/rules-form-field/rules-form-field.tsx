@@ -1,6 +1,6 @@
-import { XMarkMini } from "@medusajs/icons"
-import { PromotionDTO } from "@medusajs/types"
-import { Badge, Button, Heading, IconButton, Select, Text } from "@medusajs/ui"
+import { XMarkMini } from "@freshbox-medusa/icons"
+import { PromotionDTO } from "@freshbox-medusa/types"
+import { Badge, Button, Heading, IconButton, Select, Text } from "@freshbox-medusa/ui"
 import { forwardRef, Fragment, useEffect, useRef } from "react"
 import {
   ControllerRenderProps,

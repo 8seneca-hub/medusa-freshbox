@@ -1,4 +1,4 @@
-import { ContainerLike } from "@medusajs/types"
+import { ContainerLike } from "@freshbox-medusa/types"
 
 export function createContainerLike(obj): ContainerLike {
   return {

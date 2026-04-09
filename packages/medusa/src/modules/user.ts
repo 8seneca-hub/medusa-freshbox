@@ -1,6 +1,6 @@
-import UserModule from "@medusajs/user"
+import UserModule from "@freshbox-medusa/user"
 
-export * from "@medusajs/user"
+export * from "@freshbox-medusa/user"
 
 export default UserModule
-export const discoveryPath = require.resolve("@medusajs/user")
+export const discoveryPath = require.resolve("@freshbox-medusa/user")

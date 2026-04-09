@@ -1,7 +1,7 @@
-import type { LinkWorkflowInput } from "@medusajs/framework/types"
-import { WorkflowData, createWorkflow } from "@medusajs/framework/workflows-sdk"
+import type { LinkWorkflowInput } from "@freshbox-medusa/framework/types"
+import { WorkflowData, createWorkflow } from "@freshbox-medusa/framework/workflows-sdk"
 import { associateProductsWithSalesChannelsStep } from "../steps/associate-products-with-channels"
-import { transform } from "@medusajs/framework/workflows-sdk"
+import { transform } from "@freshbox-medusa/framework/workflows-sdk"
 import { detachProductsFromSalesChannelsStep } from "../steps"
 
 /**

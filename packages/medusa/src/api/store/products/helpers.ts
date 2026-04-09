@@ -1,16 +1,16 @@
-import { refetchEntity } from "@medusajs/framework/http"
+import { refetchEntity } from "@freshbox-medusa/framework/http"
 import {
   HttpTypes,
   ItemTaxLineDTO,
   MedusaContainer,
   TaxableItemDTO,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   applyTranslationsToTaxLines,
   calculateAmountsWithTax,
   FeatureFlag,
   Modules,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { StoreRequestWithContext } from "../types"
 import TranslationFeatureFlag from "../../../feature-flags/translation"
 

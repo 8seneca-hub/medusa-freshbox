@@ -1,15 +1,15 @@
 import type {
   AdditionalData,
   FulfillmentTypes,
-} from "@medusajs/framework/types"
-import { ShippingOptionTypeWorkflowEvents } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/types"
+import { ShippingOptionTypeWorkflowEvents } from "@freshbox-medusa/framework/utils"
 import {
   createHook,
   createWorkflow,
   transform,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { emitEventStep } from "../../common/steps/emit-event"
 import { updateShippingOptionTypesStep } from "../steps"
 

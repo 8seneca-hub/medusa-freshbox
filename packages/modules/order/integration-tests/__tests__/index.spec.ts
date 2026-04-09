@@ -1,6 +1,6 @@
-import { IOrderModuleService } from "@medusajs/framework/types"
-import { Module, Modules } from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { IOrderModuleService } from "@freshbox-medusa/framework/types"
+import { Module, Modules } from "@freshbox-medusa/framework/utils"
+import { moduleIntegrationTestRunner } from "@freshbox-medusa/test-utils"
 import { OrderModuleService } from "@services"
 
 moduleIntegrationTestRunner<IOrderModuleService>({

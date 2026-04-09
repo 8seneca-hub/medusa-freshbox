@@ -12,7 +12,7 @@ import {
   PencilSquare,
   ReceiptPercent,
   TriangleDownMini,
-} from "@medusajs/icons"
+} from "@freshbox-medusa/icons"
 import {
   AdminClaim,
   AdminExchange,
@@ -23,7 +23,7 @@ import {
   AdminPlugin,
   AdminRegion,
   AdminReturn,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 import {
   Badge,
   Button,
@@ -36,9 +36,9 @@ import {
   toast,
   Tooltip,
   usePrompt,
-} from "@medusajs/ui"
+} from "@freshbox-medusa/ui"
 
-import { AdminReservation } from "@medusajs/types/src/http"
+import { AdminReservation } from "@freshbox-medusa/types/src/http"
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import DisplayId from "../../../../../components/common/display-id/display-id"
 import { Thumbnail } from "../../../../../components/common/thumbnail"

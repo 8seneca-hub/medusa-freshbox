@@ -5,12 +5,12 @@ import {
   UpdatePriceListPricesDTO,
   UpdatePriceListPriceWorkflowDTO,
   UpdatePriceListPriceWorkflowStepDTO,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   buildPriceSetPricesForModule,
   Modules,
-} from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/utils"
+import { createStep, StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
 
 export const updatePriceListPricesStepId = "update-price-list-prices"
 /**

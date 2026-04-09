@@ -1,11 +1,11 @@
-import { AbstractFulfillmentProviderService } from "@medusajs/framework/utils"
+import { AbstractFulfillmentProviderService } from "@freshbox-medusa/framework/utils"
 import {
   CalculatedShippingOptionPrice,
   CalculateShippingOptionPriceContext,
   CreateFulfillmentResult,
   FulfillmentOption,
   ValidateFulfillmentDataContext,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 
 // TODO rework type and DTO's
 

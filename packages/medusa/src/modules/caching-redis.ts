@@ -1,6 +1,6 @@
-import RedisCachingProvider from "@medusajs/caching-redis"
+import RedisCachingProvider from "@freshbox-medusa/caching-redis"
 
-export * from "@medusajs/caching-redis"
+export * from "@freshbox-medusa/caching-redis"
 
 export default RedisCachingProvider
-export const discoveryPath = require.resolve("@medusajs/caching-redis")
+export const discoveryPath = require.resolve("@freshbox-medusa/caching-redis")

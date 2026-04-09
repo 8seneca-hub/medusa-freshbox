@@ -5,9 +5,9 @@ import {
   ModuleServiceInitializeCustomDataLayerOptions,
   ModuleServiceInitializeOptions,
   RepositoryService,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 
-import { asClass } from "@medusajs/deps/awilix"
+import { asClass } from "@freshbox-medusa/deps/awilix"
 import { MedusaInternalService } from "../medusa-internal-service"
 import { lowerCaseFirst } from "../../common"
 import {

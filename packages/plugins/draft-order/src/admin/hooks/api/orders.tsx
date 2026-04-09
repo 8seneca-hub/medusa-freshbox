@@ -6,8 +6,8 @@ import {
   UseQueryOptions,
 } from "@tanstack/react-query"
 
-import { FetchError } from "@medusajs/js-sdk"
-import { HttpTypes } from "@medusajs/types"
+import { FetchError } from "@freshbox-medusa/js-sdk"
+import { HttpTypes } from "@freshbox-medusa/types"
 import { UseMutationOptions } from "@tanstack/react-query"
 
 import {

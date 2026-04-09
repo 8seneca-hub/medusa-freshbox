@@ -3,13 +3,13 @@ import {
   ApplicationMethodType,
   PromotionType,
   RuleOperator,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { operatorsMap } from "./operators-map"
 import {
   ApplicationMethodTargetTypeValues,
   ApplicationMethodTypeValues,
   PromotionTypeValues,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 
 export enum DisguisedRule {
   APPLY_TO_QUANTITY = "apply_to_quantity",

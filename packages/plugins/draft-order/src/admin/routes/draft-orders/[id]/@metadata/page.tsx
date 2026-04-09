@@ -4,7 +4,7 @@ import {
   ArrowUpMini,
   EllipsisVertical,
   Trash,
-} from "@medusajs/icons"
+} from "@freshbox-medusa/icons"
 import {
   Button,
   DropdownMenu,
@@ -13,7 +13,7 @@ import {
   Skeleton,
   clx,
   toast,
-} from "@medusajs/ui"
+} from "@freshbox-medusa/ui"
 import { ComponentPropsWithoutRef, forwardRef } from "react"
 import { useFieldArray, useForm } from "react-hook-form"
 import { z } from "zod"

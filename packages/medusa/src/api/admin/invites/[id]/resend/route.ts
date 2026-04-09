@@ -1,7 +1,7 @@
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
+import { MedusaRequest, MedusaResponse } from "@freshbox-medusa/framework/http"
 
-import { refreshInviteTokensWorkflow } from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+import { refreshInviteTokensWorkflow } from "@freshbox-medusa/core-flows"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 import { refetchInvite } from "../../helpers"
 
 export const POST = async (

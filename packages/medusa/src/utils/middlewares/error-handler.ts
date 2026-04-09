@@ -1,3 +1,3 @@
-import { errorHandler as originalErrorHandler } from "@medusajs/framework/http"
+import { errorHandler as originalErrorHandler } from "@freshbox-medusa/framework/http"
 
 export const errorHandler = originalErrorHandler

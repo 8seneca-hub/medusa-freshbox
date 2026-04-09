@@ -1,13 +1,13 @@
 import { useMemo, useState } from "react"
 import { useTranslation } from "react-i18next"
-import { InventoryItemDTO, OrderLineItemDTO } from "@medusajs/types"
+import { InventoryItemDTO, OrderLineItemDTO } from "@freshbox-medusa/types"
 import {
   Component,
   ExclamationCircleSolid,
   TriangleDownMini,
-} from "@medusajs/icons"
+} from "@freshbox-medusa/icons"
 import { UseFormReturn, useWatch } from "react-hook-form"
-import { Input, Text, clx } from "@medusajs/ui"
+import { Input, Text, clx } from "@freshbox-medusa/ui"
 import * as zod from "zod"
 
 import { Thumbnail } from "../../../../../components/common/thumbnail"

@@ -2,7 +2,7 @@ import {
   Logger,
   ModuleProviderExports,
   ModuleServiceInitializeOptions,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 
 export type InitializeModuleInjectableDependencies = {
   logger?: Logger
@@ -47,9 +47,9 @@ export interface MedusaCloudAuthProviderOptions {
   disabled: boolean
 }
 
-declare module "@medusajs/types" {
+declare module "@freshbox-medusa/types" {
   interface ModuleOptions {
-    "@medusajs/auth": AuthModuleOptions
-    "@medusajs/medusa/auth": AuthModuleOptions
+    "@freshbox-medusa/auth": AuthModuleOptions
+    "@freshbox-medusa/medusa/auth": AuthModuleOptions
   }
 }

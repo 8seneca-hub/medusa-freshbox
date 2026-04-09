@@ -1,5 +1,5 @@
-import { TransactionHandlerType } from "@medusajs/framework/utils"
-import { z } from "@medusajs/framework/zod"
+import { TransactionHandlerType } from "@freshbox-medusa/framework/utils"
+import { z } from "@freshbox-medusa/framework/zod"
 import {
   createFindParams,
   createOperatorMap,

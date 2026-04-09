@@ -2,8 +2,8 @@ import {
   RemoteQueryFilters,
   RemoteQueryGraph,
   RemoteQueryInput,
-} from "@medusajs/types"
-import { isObject, QueryContext } from "@medusajs/utils"
+} from "@freshbox-medusa/types"
+import { isObject, QueryContext } from "@freshbox-medusa/utils"
 import { parseAndAssignFilters } from "./parse-filters"
 
 const FIELDS = "__fields"

@@ -1,17 +1,17 @@
 import {
   removeItemReceiveReturnActionWorkflow,
   updateReceiveItemReturnRequestWorkflow,
-} from "@medusajs/core-flows"
+} from "@freshbox-medusa/core-flows"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import { AdminPostReturnsReceiveItemsActionReqSchemaType } from "../../../validators"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<

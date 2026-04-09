@@ -1,5 +1,5 @@
-import { XMarkMini } from "@medusajs/icons"
-import { Badge, clx } from "@medusajs/ui"
+import { XMarkMini } from "@freshbox-medusa/icons"
+import { Badge, clx } from "@freshbox-medusa/ui"
 import { AnimatePresence, motion } from "motion/react"
 import {
   FocusEvent,

@@ -1,15 +1,15 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
-import { createProductTypesWorkflow } from "@medusajs/core-flows"
+} from "@freshbox-medusa/framework/utils"
+import { createProductTypesWorkflow } from "@freshbox-medusa/core-flows"
 import { refetchProductType } from "./helpers"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<HttpTypes.AdminProductTypeListParams>,

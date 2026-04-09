@@ -1,6 +1,6 @@
 import React, { useMemo } from "react"
-import { createDataTableColumnHelper, StatusBadge } from "@medusajs/ui"
-import { HttpTypes } from "@medusajs/types"
+import { createDataTableColumnHelper, StatusBadge } from "@freshbox-medusa/ui"
+import { HttpTypes } from "@freshbox-medusa/types"
 import { useDate } from "../../../../../../hooks/use-date"
 
 const columnHelper = createDataTableColumnHelper<HttpTypes.AdminOrder>()

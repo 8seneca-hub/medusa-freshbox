@@ -1,11 +1,11 @@
-import type { CartWorkflowDTO } from "@medusajs/framework/types"
+import type { CartWorkflowDTO } from "@freshbox-medusa/framework/types"
 import {
   isPresent,
   MathBN,
   MedusaError,
   PaymentSessionStatus,
-} from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/utils"
+import { createStep, StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
 
 /**
  * The cart's details.

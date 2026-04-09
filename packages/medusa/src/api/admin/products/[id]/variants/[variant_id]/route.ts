@@ -1,14 +1,14 @@
 import {
   deleteProductVariantsWorkflow,
   updateProductVariantsWorkflow,
-} from "@medusajs/core-flows"
+} from "@freshbox-medusa/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
-import { refetchEntity } from "@medusajs/framework/http"
+import { AdditionalData, HttpTypes } from "@freshbox-medusa/framework/types"
+import { refetchEntity } from "@freshbox-medusa/framework/http"
 import {
   remapKeysForProduct,
   remapKeysForVariant,

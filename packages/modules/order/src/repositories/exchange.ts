@@ -1,4 +1,4 @@
-import { DALUtils } from "@medusajs/framework/utils"
+import { DALUtils } from "@freshbox-medusa/framework/utils"
 import { OrderExchange } from "@models"
 import { setFindMethods } from "../utils/base-repository-find"
 

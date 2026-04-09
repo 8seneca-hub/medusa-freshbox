@@ -1,7 +1,7 @@
-import { DeleteEntityInput } from "@medusajs/framework/modules-sdk"
-import type { IFulfillmentModuleService } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import { DeleteEntityInput } from "@freshbox-medusa/framework/modules-sdk"
+import type { IFulfillmentModuleService } from "@freshbox-medusa/framework/types"
+import { Modules } from "@freshbox-medusa/framework/utils"
+import { StepResponse, createStep } from "@freshbox-medusa/framework/workflows-sdk"
 
 /**
  * The IDs of the shipping options to delete.

@@ -2,8 +2,8 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 
-import { HttpTypes } from "@medusajs/types"
-import { Button, Checkbox, Hint, Tooltip, toast } from "@medusajs/ui"
+import { HttpTypes } from "@freshbox-medusa/types"
+import { Button, Checkbox, Hint, Tooltip, toast } from "@freshbox-medusa/ui"
 import {
   OnChangeFn,
   RowSelectionState,

@@ -2,7 +2,7 @@ import {
   definePolicies,
   PolicyDefinition,
   toPascalCase,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { defaultPolicyOperations } from "../utils/default-policy-operations"
 
 const promotionResources = ["campaign", "promotion"]

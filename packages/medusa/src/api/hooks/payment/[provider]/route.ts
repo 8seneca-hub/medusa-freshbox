@@ -1,7 +1,7 @@
-import { PaymentModuleOptions } from "@medusajs/framework/types"
-import { Modules, PaymentWebhookEvents } from "@medusajs/framework/utils"
+import { PaymentModuleOptions } from "@freshbox-medusa/framework/types"
+import { Modules, PaymentWebhookEvents } from "@freshbox-medusa/framework/utils"
 
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
+import { MedusaRequest, MedusaResponse } from "@freshbox-medusa/framework/http"
 
 export const POST = async (req: MedusaRequest, res: MedusaResponse) => {
   try {

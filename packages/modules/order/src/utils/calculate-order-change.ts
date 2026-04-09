@@ -2,14 +2,14 @@ import {
   BigNumberInput,
   OrderDTO,
   OrderSummaryDTO,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   BigNumber,
   ChangeActionType,
   MathBN,
   isPresent,
   transformPropertiesToBigNumber,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import {
   ActionTypeDefinition,
   EVENT_STATUS,

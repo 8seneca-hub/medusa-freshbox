@@ -8,9 +8,9 @@ import {
   ICurrencyModuleService,
   InternalModuleDeclaration,
   ModulesSdkTypes,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 
-import { MedusaService } from "@medusajs/framework/utils"
+import { MedusaService } from "@freshbox-medusa/framework/utils"
 import { Currency } from "@models"
 
 type InjectedDependencies = {

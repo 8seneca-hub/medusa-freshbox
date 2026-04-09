@@ -1,6 +1,6 @@
-import type { IOrderModuleService } from "@medusajs/framework/types"
-import { createStep } from "@medusajs/framework/workflows-sdk"
-import { Modules } from "@medusajs/framework/utils"
+import type { IOrderModuleService } from "@freshbox-medusa/framework/types"
+import { createStep } from "@freshbox-medusa/framework/workflows-sdk"
+import { Modules } from "@freshbox-medusa/framework/utils"
 
 /**
  * The details of canceling the orders.

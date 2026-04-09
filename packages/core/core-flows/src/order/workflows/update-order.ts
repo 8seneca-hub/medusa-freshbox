@@ -1,14 +1,14 @@
-import type { OrderDTO, OrderWorkflow } from "@medusajs/framework/types"
+import type { OrderDTO, OrderWorkflow } from "@freshbox-medusa/framework/types"
 import {
   OrderPreviewDTO,
   RegisterOrderChangeDTO,
   UpdateOrderDTO,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   MedusaError,
   OrderWorkflowEvents,
   validateEmail,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
@@ -17,7 +17,7 @@ import {
   parallelize,
   transform,
   when,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 
 import { emitEventStep, useQueryGraphStep } from "../../common"
 import {

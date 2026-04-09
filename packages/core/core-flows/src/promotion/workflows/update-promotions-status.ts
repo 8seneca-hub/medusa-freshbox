@@ -1,14 +1,14 @@
 import {
   AdditionalData,
   PromotionStatusValues,
-} from "@medusajs/framework/types"
-import { MedusaError, PromotionStatus } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/types"
+import { MedusaError, PromotionStatus } from "@freshbox-medusa/framework/utils"
 import {
   WorkflowResponse,
   createHook,
   createStep,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { updatePromotionsStep } from "../steps"
 
 /**

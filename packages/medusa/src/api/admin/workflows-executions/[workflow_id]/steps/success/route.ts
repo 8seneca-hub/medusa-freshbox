@@ -2,14 +2,14 @@ import {
   isDefined,
   Modules,
   TransactionHandlerType,
-} from "@medusajs/framework/utils"
-import { StepResponse } from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/utils"
+import { StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 
-import { IWorkflowEngineService } from "@medusajs/framework/types"
+import { IWorkflowEngineService } from "@freshbox-medusa/framework/types"
 import { AdminCreateWorkflowsAsyncResponseType } from "../../../validators"
 
 export const POST = async (

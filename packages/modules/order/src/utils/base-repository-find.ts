@@ -1,6 +1,6 @@
-import { Constructor, Context, DAL } from "@medusajs/framework/types"
-import { MikroOrmBaseRepository, toMikroORMEntity } from "@medusajs/framework/utils"
-import { LoadStrategy } from "@medusajs/framework/mikro-orm/core"
+import { Constructor, Context, DAL } from "@freshbox-medusa/framework/types"
+import { MikroOrmBaseRepository, toMikroORMEntity } from "@freshbox-medusa/framework/utils"
+import { LoadStrategy } from "@freshbox-medusa/framework/mikro-orm/core"
 import { Order, OrderClaim, OrderLineItemAdjustment } from "@models"
 
 import { mapRepositoryToOrderModel } from "."

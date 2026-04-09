@@ -32,8 +32,8 @@ import {
   UpdatePaymentInput,
   UpdatePaymentOutput,
   WebhookActionResult,
-} from "@medusajs/framework/types"
-import { ModulesSdkUtils } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/types"
+import { ModulesSdkUtils } from "@freshbox-medusa/framework/utils"
 import { PaymentProvider } from "@models"
 
 type InjectedDependencies = {

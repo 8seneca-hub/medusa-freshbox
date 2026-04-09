@@ -1,14 +1,14 @@
-import { createTaxRegionsWorkflow } from "@medusajs/core-flows"
+import { createTaxRegionsWorkflow } from "@freshbox-medusa/core-flows"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import { refetchTaxRegion } from "./helpers"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<

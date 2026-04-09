@@ -5,9 +5,9 @@ import {
   ICartModuleService,
   ItemTaxLineDTO,
   ShippingTaxLineDTO,
-} from "@medusajs/framework/types"
-import { Modules, promiseAll } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/types"
+import { Modules, promiseAll } from "@freshbox-medusa/framework/utils"
+import { StepResponse, createStep } from "@freshbox-medusa/framework/workflows-sdk"
 
 /**
  * The details of the tax lines to set in a cart.

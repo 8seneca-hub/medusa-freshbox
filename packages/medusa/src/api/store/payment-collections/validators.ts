@@ -1,4 +1,4 @@
-import { z } from "@medusajs/framework/zod"
+import { z } from "@freshbox-medusa/framework/zod"
 import { createSelectParams } from "../../utils/validators"
 
 export type StoreGetPaymentCollectionParamsType = z.infer<

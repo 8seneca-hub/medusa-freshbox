@@ -1,6 +1,6 @@
-import type { IFileModuleService } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import type { IFileModuleService } from "@freshbox-medusa/framework/types"
+import { Modules } from "@freshbox-medusa/framework/utils"
+import { createStep, StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
 
 /**
  * The data to upload files.

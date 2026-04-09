@@ -1,4 +1,4 @@
-import { PromotionRuleResponse } from "@medusajs/types"
+import { PromotionRuleResponse } from "@freshbox-medusa/types"
 
 export const generateRuleAttributes = (rules?: PromotionRuleResponse[]) =>
   (rules || []).map((rule) => ({

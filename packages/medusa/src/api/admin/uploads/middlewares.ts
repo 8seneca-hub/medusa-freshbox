@@ -1,9 +1,9 @@
-import { validateAndTransformQuery } from "@medusajs/framework"
+import { validateAndTransformQuery } from "@freshbox-medusa/framework"
 import {
   MiddlewareRoute,
   validateAndTransformBody,
-} from "@medusajs/framework/http"
-import { PolicyOperation } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/http"
+import { PolicyOperation } from "@freshbox-medusa/framework/utils"
 import multer from "multer"
 import { Entities, retrieveUploadConfig } from "./query-config"
 import { AdminGetUploadParams, AdminUploadPreSignedUrl } from "./validators"

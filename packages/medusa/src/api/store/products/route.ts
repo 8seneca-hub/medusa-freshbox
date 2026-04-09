@@ -1,11 +1,11 @@
-import { MedusaResponse } from "@medusajs/framework/http"
-import { HttpTypes, QueryContextType } from "@medusajs/framework/types"
+import { MedusaResponse } from "@freshbox-medusa/framework/http"
+import { HttpTypes, QueryContextType } from "@freshbox-medusa/framework/types"
 import {
   ContainerRegistrationKeys,
   FeatureFlag,
   isPresent,
   QueryContext,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import IndexEngineFeatureFlag from "../../../feature-flags/index-engine"
 import { wrapVariantsWithInventoryQuantityForSalesChannel } from "../../utils/middlewares"
 import { RequestWithContext, wrapProductsWithTaxPrices } from "./helpers"

@@ -1,5 +1,5 @@
-import { MedusaContainer } from "@medusajs/types"
-import { ContainerRegistrationKeys, useCache } from "@medusajs/utils"
+import { MedusaContainer } from "@freshbox-medusa/types"
+import { ContainerRegistrationKeys, useCache } from "@freshbox-medusa/utils"
 import { FlagRouter } from "../feature-flags/flag-router"
 
 export type PermissionAction = {

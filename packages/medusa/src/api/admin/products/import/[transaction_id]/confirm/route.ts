@@ -1,15 +1,15 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 
 import {
   importProductsWorkflowId,
   waitConfirmationProductImportStepId,
-} from "@medusajs/core-flows"
-import { IWorkflowEngineService } from "@medusajs/framework/types"
-import { Modules, TransactionHandlerType } from "@medusajs/framework/utils"
-import { StepResponse } from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/core-flows"
+import { IWorkflowEngineService } from "@freshbox-medusa/framework/types"
+import { Modules, TransactionHandlerType } from "@freshbox-medusa/framework/utils"
+import { StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
 
 /**
  * @deprecated use `POST /admin/products/imports/:transaction_id/confirm` instead.

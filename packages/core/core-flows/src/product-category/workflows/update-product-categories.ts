@@ -1,15 +1,15 @@
 import {
   ProductCategoryDTO,
   ProductCategoryWorkflow,
-} from "@medusajs/framework/types"
-import { ProductCategoryWorkflowEvents } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/types"
+import { ProductCategoryWorkflowEvents } from "@freshbox-medusa/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   transform,
   createHook,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { emitEventStep } from "../../common"
 import { updateProductCategoriesStep } from "../steps"
 

@@ -1,14 +1,14 @@
 import {
   IStockLocationService,
   UpsertStockLocationAddressInput,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   getSelectsAndRelationsFromObjectArray,
   promiseAll,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/utils"
+import { StepResponse, createStep } from "@freshbox-medusa/framework/workflows-sdk"
 
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@freshbox-medusa/framework/utils"
 
 /**
  * The data to upsert stock location addresses.

@@ -1,4 +1,4 @@
-import { raw } from "@medusajs/framework/mikro-orm/core"
+import { raw } from "@freshbox-medusa/framework/mikro-orm/core"
 import {
   Context,
   CreateTranslationDTO,
@@ -11,8 +11,8 @@ import {
   ModulesSdkTypes,
   TranslationTypes,
   UpdateTranslationSettingsDTO,
-} from "@medusajs/framework/types"
-import { SqlEntityManager } from "@medusajs/framework/mikro-orm/postgresql"
+} from "@freshbox-medusa/framework/types"
+import { SqlEntityManager } from "@freshbox-medusa/framework/mikro-orm/postgresql"
 import {
   arrayDifference,
   DmlEntity,
@@ -24,7 +24,7 @@ import {
   MedusaService,
   normalizeLocale,
   toSnakeCase,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import Locale from "@models/locale"
 import Translation from "@models/translation"
 import Settings from "@models/settings"

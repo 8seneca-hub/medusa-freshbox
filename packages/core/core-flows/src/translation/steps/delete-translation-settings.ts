@@ -1,5 +1,5 @@
-import { Modules } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { Modules } from "@freshbox-medusa/framework/utils"
+import { createStep, StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
 
 export const deleteTranslationSettingsStepId = "delete-translation-settings"
 

@@ -69,7 +69,7 @@ export type ItemTaxCalculationLine = {
  * import {
  *   ITaxProvider,
  *   Logger
- * } from "@medusajs/framework/types"
+ * } from "@freshbox-medusa/framework/types"
  * 
  * type InjectedDependencies = {
  *   logger: Logger

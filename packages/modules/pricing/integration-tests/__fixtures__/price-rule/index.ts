@@ -1,8 +1,8 @@
 import { PriceRule } from "@models"
 
-import { CreatePriceRuleDTO } from "@medusajs/framework/types"
-import { SqlEntityManager } from "@medusajs/framework/mikro-orm/postgresql"
-import { toMikroORMEntity } from "@medusajs/framework/utils"
+import { CreatePriceRuleDTO } from "@freshbox-medusa/framework/types"
+import { SqlEntityManager } from "@freshbox-medusa/framework/mikro-orm/postgresql"
+import { toMikroORMEntity } from "@freshbox-medusa/framework/utils"
 import { defaultPriceRuleData } from "./data"
 
 export * from "./data"

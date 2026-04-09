@@ -1,12 +1,12 @@
-import { transferCartCustomerWorkflowId } from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+import { transferCartCustomerWorkflowId } from "@freshbox-medusa/core-flows"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { Modules } from "@medusajs/framework/utils"
-import { AdditionalData } from "@medusajs/types"
+} from "@freshbox-medusa/framework/http"
+import { Modules } from "@freshbox-medusa/framework/utils"
+import { AdditionalData } from "@freshbox-medusa/types"
 import { refetchCart } from "../../helpers"
 
 export const POST = async (

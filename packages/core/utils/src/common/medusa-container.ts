@@ -1,4 +1,4 @@
-import { MedusaContainer } from "@medusajs/types"
+import { MedusaContainer } from "@freshbox-medusa/types"
 import {
   asFunction,
   asValue,
@@ -6,7 +6,7 @@ import {
   ClassOrFunctionReturning,
   createContainer,
   Resolver,
-} from "@medusajs/deps/awilix"
+} from "@freshbox-medusa/deps/awilix"
 
 function asArray(
   resolvers: (ClassOrFunctionReturning<unknown> | Resolver<unknown>)[]

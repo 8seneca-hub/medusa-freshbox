@@ -10,7 +10,7 @@ import {
   RemoteQueryInput,
   RemoteQueryObjectConfig,
   RemoteQueryObjectFromStringResult,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 import {
   Cached,
   MedusaError,
@@ -18,7 +18,7 @@ import {
   isObject,
   remoteQueryObjectFromString,
   unflattenObjectKeys,
-} from "@medusajs/utils"
+} from "@freshbox-medusa/utils"
 import { RemoteQuery } from "./remote-query"
 import { toRemoteQuery } from "./to-remote-query"
 

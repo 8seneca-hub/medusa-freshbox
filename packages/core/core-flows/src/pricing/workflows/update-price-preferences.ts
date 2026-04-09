@@ -1,9 +1,9 @@
-import type { PricingWorkflow } from "@medusajs/framework/types"
+import type { PricingWorkflow } from "@freshbox-medusa/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { updatePricePreferencesStep } from "../steps"
 
 export const updatePricePreferencesWorkflowId = "update-price-preferences"

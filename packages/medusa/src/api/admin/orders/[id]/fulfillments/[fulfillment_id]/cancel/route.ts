@@ -1,13 +1,13 @@
-import { cancelOrderFulfillmentWorkflow } from "@medusajs/core-flows"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
+import { cancelOrderFulfillmentWorkflow } from "@freshbox-medusa/core-flows"
+import { AdditionalData, HttpTypes } from "@freshbox-medusa/framework/types"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import { AdminOrderCancelFulfillmentType } from "../../../../validators"
 
 export const POST = async (

@@ -13,8 +13,8 @@ import {
   SquaresPlus,
   Tag,
   Users,
-} from "@medusajs/icons"
-import { Avatar, Divider, DropdownMenu, Text, clx } from "@medusajs/ui"
+} from "@freshbox-medusa/icons"
+import { Avatar, Divider, DropdownMenu, Text, clx } from "@freshbox-medusa/ui"
 import { Collapsible as RadixCollapsible } from "radix-ui"
 import { useTranslation } from "react-i18next"
 

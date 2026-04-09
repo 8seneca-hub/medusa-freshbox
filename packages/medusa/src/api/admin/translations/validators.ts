@@ -7,7 +7,7 @@ import {
   createFindParams,
   createSelectParams,
 } from "../../utils/validators"
-import { z } from "@medusajs/framework/zod"
+import { z } from "@freshbox-medusa/framework/zod"
 
 export const AdminGetTranslationParams = createSelectParams()
 

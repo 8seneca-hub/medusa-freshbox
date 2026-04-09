@@ -1,6 +1,6 @@
-import { GlobeEurope, PencilSquare, Trash } from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
-import { usePrompt } from "@medusajs/ui"
+import { GlobeEurope, PencilSquare, Trash } from "@freshbox-medusa/icons"
+import { HttpTypes } from "@freshbox-medusa/types"
+import { usePrompt } from "@freshbox-medusa/ui"
 import { useTranslation } from "react-i18next"
 
 import { ActionMenu } from "../../../../../components/common/action-menu"

@@ -1,17 +1,17 @@
 import {
   assignUserRolesWorkflow,
   removeUserRolesWorkflow,
-} from "@medusajs/core-flows"
+} from "@freshbox-medusa/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import {
   ContainerRegistrationKeys,
   defineFileConfig,
   FeatureFlag,
   MedusaError,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import RbacFeatureFlag from "../../../../../../feature-flags/rbac"
 import {
   AdminAssignRoleUsersType,

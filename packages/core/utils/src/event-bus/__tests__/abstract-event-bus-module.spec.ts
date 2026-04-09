@@ -1,4 +1,4 @@
-import { EventBusTypes } from "@medusajs/types"
+import { EventBusTypes } from "@freshbox-medusa/types"
 import { AbstractEventBusModuleService } from ".."
 
 class MockEventBusModuleService extends AbstractEventBusModuleService {

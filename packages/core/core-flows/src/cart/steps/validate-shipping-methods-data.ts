@@ -1,9 +1,9 @@
-import { Modules, promiseAll } from "@medusajs/framework/utils"
+import { Modules, promiseAll } from "@freshbox-medusa/framework/utils"
 import {
   IFulfillmentModuleService,
   ValidateFulfillmentDataContext,
-} from "@medusajs/framework/types"
-import { createStep, StepResponse } from "@medusajs/workflows-sdk"
+} from "@freshbox-medusa/framework/types"
+import { createStep, StepResponse } from "@freshbox-medusa/workflows-sdk"
 
 /**
  * The details of the shipping methods to validate.

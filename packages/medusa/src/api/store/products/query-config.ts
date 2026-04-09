@@ -1,5 +1,6 @@
 export const defaultStoreProductFields = [
   "id",
+  "status",
   "title",
   "subtitle",
   "description",
@@ -27,6 +28,7 @@ export const defaultStoreProductFields = [
   "*images",
   "*variants",
   "*variants.options",
+  "*variants.inventory_items"
 ]
 
 export const retrieveProductQueryConfig = {

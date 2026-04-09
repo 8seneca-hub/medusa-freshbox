@@ -1,5 +1,5 @@
-import { TaxExclusive, TaxInclusive } from "@medusajs/icons"
-import { Tooltip } from "@medusajs/ui"
+import { TaxExclusive, TaxInclusive } from "@freshbox-medusa/icons"
+import { Tooltip } from "@freshbox-medusa/ui"
 import { useTranslation } from "react-i18next"
 
 type IncludesTaxTooltipProps = {

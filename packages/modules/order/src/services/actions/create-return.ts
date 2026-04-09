@@ -2,7 +2,7 @@ import {
   Context,
   CreateOrderChangeActionDTO,
   OrderTypes,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   ChangeActionType,
   OrderChangeType,
@@ -12,7 +12,7 @@ import {
   isString,
   promiseAll,
   toMikroORMEntity,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { Return, ReturnItem } from "@models"
 
 function createReturnReference(em, data, order) {

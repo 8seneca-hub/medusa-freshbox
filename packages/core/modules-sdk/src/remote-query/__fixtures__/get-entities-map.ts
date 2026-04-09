@@ -1,4 +1,4 @@
-import { GraphQLUtils } from "@medusajs/utils"
+import { GraphQLUtils } from "@freshbox-medusa/utils"
 
 export function getEntitiesMap(loadedSchema): Map<string, any> {
   const defaultMedusaSchema = `

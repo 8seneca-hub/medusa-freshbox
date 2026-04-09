@@ -5,7 +5,7 @@ import {
   InternalModuleDeclaration,
   ModulesSdkTypes,
   SettingsTypes,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   EmitEvents,
   InjectManager,
@@ -13,7 +13,7 @@ import {
   MedusaContext,
   MedusaError,
   MedusaService,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { ViewConfiguration, UserPreference } from "@/models"
 
 type InjectedDependencies = {

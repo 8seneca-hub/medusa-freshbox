@@ -3,9 +3,9 @@ import {
   WorkflowResponse,
   createHook,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 
-import type { CreateStockLocationInput } from "@medusajs/framework/types"
+import type { CreateStockLocationInput } from "@freshbox-medusa/framework/types"
 import { createStockLocations } from "../steps"
 
 /**

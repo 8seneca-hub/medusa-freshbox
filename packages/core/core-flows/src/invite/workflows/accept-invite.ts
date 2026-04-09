@@ -1,12 +1,12 @@
-import type { InviteWorkflow, UserDTO } from "@medusajs/framework/types"
-import { InviteWorkflowEvents } from "@medusajs/framework/utils"
+import type { InviteWorkflow, UserDTO } from "@freshbox-medusa/framework/types"
+import { InviteWorkflowEvents } from "@freshbox-medusa/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   parallelize,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { setAuthAppMetadataStep } from "../../auth"
 import { emitEventStep } from "../../common/steps/emit-event"
 import { createUsersWorkflow } from "../../user"

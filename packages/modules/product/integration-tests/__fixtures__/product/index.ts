@@ -2,8 +2,8 @@ import {
   kebabCase,
   ProductStatus,
   toMikroORMEntity,
-} from "@medusajs/framework/utils"
-import { SqlEntityManager } from "@medusajs/framework/mikro-orm/postgresql"
+} from "@freshbox-medusa/framework/utils"
+import { SqlEntityManager } from "@freshbox-medusa/framework/mikro-orm/postgresql"
 import {
   ProductImage,
   Product,
@@ -14,7 +14,7 @@ import {
 } from "@models"
 
 import ProductOption from "../../../src/models/product-option"
-import { InferEntityType } from "@medusajs/types"
+import { InferEntityType } from "@freshbox-medusa/types"
 
 export * from "./data/create-product"
 

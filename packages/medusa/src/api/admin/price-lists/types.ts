@@ -1,4 +1,4 @@
-import { PriceListStatus, PriceListType } from "@medusajs/framework/types"
+import { PriceListStatus, PriceListType } from "@freshbox-medusa/framework/types"
 
 export type AdminPriceListRemoteQueryDTO = {
   id: string

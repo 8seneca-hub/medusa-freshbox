@@ -1,4 +1,4 @@
-import { Constructor, IDmlEntity, ModuleExports } from "@medusajs/types"
+import { Constructor, IDmlEntity, ModuleExports } from "@freshbox-medusa/types"
 import { DmlEntity } from "../dml"
 import {
   buildIdPrefixToEntityNameFromDmlObjects,

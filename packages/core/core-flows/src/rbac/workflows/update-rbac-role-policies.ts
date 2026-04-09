@@ -2,8 +2,8 @@ import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
-import { UpdateRbacRolePolicyDTO } from "@medusajs/types"
+} from "@freshbox-medusa/framework/workflows-sdk"
+import { UpdateRbacRolePolicyDTO } from "@freshbox-medusa/types"
 import { updateRbacRolePoliciesStep } from "../steps/update-rbac-role-policies"
 
 /**

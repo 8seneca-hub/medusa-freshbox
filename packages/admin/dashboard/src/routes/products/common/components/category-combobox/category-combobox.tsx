@@ -4,9 +4,9 @@ import {
   TriangleRightMini,
   TrianglesMini,
   XMarkMini,
-} from "@medusajs/icons"
-import { AdminProductCategoryResponse } from "@medusajs/types"
-import { Divider, Text, clx } from "@medusajs/ui"
+} from "@freshbox-medusa/icons"
+import { AdminProductCategoryResponse } from "@freshbox-medusa/types"
+import { Divider, Text, clx } from "@freshbox-medusa/ui"
 import { Popover as RadixPopover } from "radix-ui"
 import {
   CSSProperties,

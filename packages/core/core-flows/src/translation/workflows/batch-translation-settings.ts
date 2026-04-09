@@ -2,11 +2,11 @@ import {
   createWorkflow,
   parallelize,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import {
   UpdateTranslationSettingsDTO,
   CreateTranslationSettingsDTO,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 import {
   createTranslationSettingsStep,
   deleteTranslationSettingsStep,

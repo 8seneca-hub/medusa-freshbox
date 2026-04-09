@@ -11,7 +11,7 @@ import {
   InternalModuleDeclaration,
   ModuleJoinerConfig,
   ModulesSdkTypes,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 
 import {
   EmitEvents,
@@ -20,7 +20,7 @@ import {
   isString,
   MedusaContext,
   MedusaService,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import {
   Customer,
   CustomerAddress,

@@ -1,5 +1,5 @@
-import { WorkflowStepHandlerArguments } from "@medusajs/orchestration"
-import { OrchestrationUtils } from "@medusajs/utils"
+import { WorkflowStepHandlerArguments } from "@freshbox-medusa/orchestration"
+import { OrchestrationUtils } from "@freshbox-medusa/utils"
 import { ApplyStepOptions } from "../create-step"
 import {
   CreateWorkflowComposerContext,

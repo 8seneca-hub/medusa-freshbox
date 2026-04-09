@@ -1,7 +1,7 @@
-import { ISalesChannelModuleService } from "@medusajs/framework/types"
-import { Module, Modules } from "@medusajs/framework/utils"
+import { ISalesChannelModuleService } from "@freshbox-medusa/framework/types"
+import { Module, Modules } from "@freshbox-medusa/framework/utils"
 import { SalesChannelModuleService } from "@services"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { moduleIntegrationTestRunner } from "@freshbox-medusa/test-utils"
 
 jest.setTimeout(30000)
 

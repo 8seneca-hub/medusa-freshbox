@@ -1,4 +1,4 @@
-import { discoverPoliciesFromDir } from "@medusajs/utils"
+import { discoverPoliciesFromDir } from "@freshbox-medusa/utils"
 import { normalize } from "path"
 
 /**

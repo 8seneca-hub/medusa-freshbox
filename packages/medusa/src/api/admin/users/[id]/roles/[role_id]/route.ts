@@ -1,8 +1,8 @@
-import { removeUserRolesWorkflow } from "@medusajs/core-flows"
+import { removeUserRolesWorkflow } from "@freshbox-medusa/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 
 /**
  * @ignore

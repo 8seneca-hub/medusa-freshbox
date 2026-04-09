@@ -1,11 +1,11 @@
-import type { OrderDTO } from "@medusajs/framework/types"
-import { OrderWorkflowEvents } from "@medusajs/framework/utils"
+import type { OrderDTO } from "@freshbox-medusa/framework/types"
+import { OrderWorkflowEvents } from "@freshbox-medusa/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { emitEventStep } from "../../common/steps/emit-event"
 import { archiveOrdersStep } from "../steps"
 

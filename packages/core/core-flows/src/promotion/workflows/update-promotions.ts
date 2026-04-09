@@ -3,8 +3,8 @@ import {
   PromotionDTO,
   PromotionStatusValues,
   UpdatePromotionDTO,
-} from "@medusajs/framework/types"
-import { isString } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/types"
+import { isString } from "@freshbox-medusa/framework/utils"
 import {
   createHook,
   createWorkflow,
@@ -12,7 +12,7 @@ import {
   when,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { useRemoteQueryStep } from "../../common"
 import { updatePromotionsStep } from "../steps"
 import { updatePromotionsStatusWorkflow } from "./update-promotions-status"

@@ -1,5 +1,5 @@
-import { AdminApiKeyResponse } from "@medusajs/types"
-import { Badge } from "@medusajs/ui"
+import { AdminApiKeyResponse } from "@freshbox-medusa/types"
+import { Badge } from "@freshbox-medusa/ui"
 import { createColumnHelper } from "@tanstack/react-table"
 import { useMemo } from "react"
 import { useTranslation } from "react-i18next"

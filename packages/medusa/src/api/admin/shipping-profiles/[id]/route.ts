@@ -1,13 +1,13 @@
 import {
   deleteShippingProfileWorkflow,
   updateShippingProfilesWorkflow,
-} from "@medusajs/core-flows"
-import { HttpTypes, IFulfillmentModuleService } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/core-flows"
+import { HttpTypes, IFulfillmentModuleService } from "@freshbox-medusa/framework/types"
+import { Modules } from "@freshbox-medusa/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import { refetchShippingProfile } from "../helpers"
 
 export const GET = async (

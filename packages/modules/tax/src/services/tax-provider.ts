@@ -1,5 +1,5 @@
-import { DAL, ITaxProvider, Logger, TaxTypes } from "@medusajs/framework/types"
-import { ModulesSdkUtils } from "@medusajs/framework/utils"
+import { DAL, ITaxProvider, Logger, TaxTypes } from "@freshbox-medusa/framework/types"
+import { ModulesSdkUtils } from "@freshbox-medusa/framework/utils"
 
 import TaxProvider from "../models/tax-provider"
 

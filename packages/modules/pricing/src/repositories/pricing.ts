@@ -4,19 +4,19 @@ import {
   MedusaError,
   MikroOrmBase,
   PriceListStatus,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 
 import {
   Knex,
   SqlEntityManager,
-} from "@medusajs/framework/mikro-orm/postgresql"
+} from "@freshbox-medusa/framework/mikro-orm/postgresql"
 import {
   CalculatedPriceSetDTO,
   Context,
   PricingContext,
   PricingFilters,
   PricingRepositoryService,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 
 export class PricingRepository
   extends MikroOrmBase

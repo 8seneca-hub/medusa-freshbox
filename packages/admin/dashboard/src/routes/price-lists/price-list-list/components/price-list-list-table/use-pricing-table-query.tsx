@@ -1,4 +1,4 @@
-import { HttpTypes, PriceListStatus } from "@medusajs/types"
+import { HttpTypes, PriceListStatus } from "@freshbox-medusa/types"
 import { useQueryParams } from "../../../../../hooks/use-query-params"
 
 export const usePricingTableQuery = ({

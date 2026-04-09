@@ -1,5 +1,5 @@
-import { XMarkMini } from "@medusajs/icons"
-import { IconButton, Text } from "@medusajs/ui"
+import { XMarkMini } from "@freshbox-medusa/icons"
+import { IconButton, Text } from "@freshbox-medusa/ui"
 import { useProduct } from "../../../../../hooks/api"
 
 type TargetItemProps = {

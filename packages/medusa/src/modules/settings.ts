@@ -1,6 +1,6 @@
-import SettingsModule from "@medusajs/settings"
+import SettingsModule from "@freshbox-medusa/settings"
 
-export * from "@medusajs/settings"
+export * from "@freshbox-medusa/settings"
 
 export default SettingsModule
-export const discoveryPath = require.resolve("@medusajs/settings")
+export const discoveryPath = require.resolve("@freshbox-medusa/settings")

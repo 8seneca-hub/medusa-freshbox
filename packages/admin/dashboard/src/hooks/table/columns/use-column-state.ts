@@ -1,5 +1,5 @@
 import { useState, useCallback, useMemo, useEffect, useRef } from "react"
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@freshbox-medusa/types"
 
 type ViewConfiguration =
   HttpTypes.AdminViewConfigurationResponse["view_configuration"]

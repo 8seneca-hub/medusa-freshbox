@@ -1,7 +1,7 @@
-import { Container, Heading, Text, Tooltip } from "@medusajs/ui"
+import { Container, Heading, Text, Tooltip } from "@freshbox-medusa/ui"
 import { useTranslation } from "react-i18next"
-import { HttpTypes } from "@medusajs/types"
-import { PencilSquare, ThumbnailBadge } from "@medusajs/icons"
+import { HttpTypes } from "@freshbox-medusa/types"
+import { PencilSquare, ThumbnailBadge } from "@freshbox-medusa/icons"
 
 import { ActionMenu } from "../../../../../components/common/action-menu"
 

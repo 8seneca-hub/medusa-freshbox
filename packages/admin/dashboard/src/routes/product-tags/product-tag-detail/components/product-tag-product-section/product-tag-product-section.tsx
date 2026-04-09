@@ -1,5 +1,5 @@
-import { HttpTypes } from "@medusajs/types"
-import { Container, Heading } from "@medusajs/ui"
+import { HttpTypes } from "@freshbox-medusa/types"
+import { Container, Heading } from "@freshbox-medusa/ui"
 import { useTranslation } from "react-i18next"
 import { _DataTable } from "../../../../../components/table/data-table"
 import { useProducts } from "../../../../../hooks/api"

@@ -1,4 +1,4 @@
-import { XMarkMini } from "@medusajs/icons"
+import { XMarkMini } from "@freshbox-medusa/icons"
 import {
   Alert,
   Button,
@@ -11,7 +11,7 @@ import {
   Input,
   Label,
   Text,
-} from "@medusajs/ui"
+} from "@freshbox-medusa/ui"
 import {
   Controller,
   FieldArrayWithId,

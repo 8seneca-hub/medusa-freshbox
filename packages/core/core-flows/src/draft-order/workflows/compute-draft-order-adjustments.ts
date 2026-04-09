@@ -1,16 +1,16 @@
-import { ChangeActionType, OrderChangeStatus } from "@medusajs/framework/utils"
+import { ChangeActionType, OrderChangeStatus } from "@freshbox-medusa/framework/utils"
 import {
   createWorkflow,
   transform,
   when,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import type {
   OrderChangeDTO,
   OrderDTO,
   PromotionDTO,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   getActionsToComputeFromPromotionsStep,
   prepareAdjustmentsFromPromotionActionsStep,

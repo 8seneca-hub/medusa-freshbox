@@ -1,15 +1,15 @@
 import {
   CreatePromotionDTO,
   IPromotionModuleService,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   ApplicationMethodType,
   CampaignBudgetType,
   Modules,
   PromotionStatus,
   PromotionType,
-} from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner, SuiteOptions } from "@medusajs/test-utils"
+} from "@freshbox-medusa/framework/utils"
+import { moduleIntegrationTestRunner, SuiteOptions } from "@freshbox-medusa/test-utils"
 import { createCampaigns } from "../../../__fixtures__/campaigns"
 import { createDefaultPromotion } from "../../../__fixtures__/promotion"
 

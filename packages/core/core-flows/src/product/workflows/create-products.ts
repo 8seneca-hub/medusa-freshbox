@@ -4,13 +4,13 @@ import {
   LinkDefinition,
   PricingTypes,
   ProductTypes,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   ProductWorkflowEvents,
   isPresent,
   MedusaError,
   Modules,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
@@ -18,7 +18,7 @@ import {
   createWorkflow,
   transform,
   createStep,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { createRemoteLinkStep, emitEventStep } from "../../common"
 import { associateProductsWithSalesChannelsStep } from "../../sales-channel"
 import { createProductsStep } from "../steps/create-products"

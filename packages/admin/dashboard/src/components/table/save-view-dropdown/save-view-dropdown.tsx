@@ -4,12 +4,12 @@ import {
   Button,
   toast,
   usePrompt,
-} from "@medusajs/ui"
+} from "@freshbox-medusa/ui"
 import {
   Plus,
   CloudArrowUp,
   SquarePlusMicro,
-} from "@medusajs/icons"
+} from "@freshbox-medusa/icons"
 
 interface SaveViewDropdownProps {
   isDefaultView: boolean

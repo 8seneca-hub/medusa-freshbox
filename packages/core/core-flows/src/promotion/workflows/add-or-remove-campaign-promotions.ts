@@ -1,9 +1,9 @@
-import type { LinkWorkflowInput } from "@medusajs/framework/types"
+import type { LinkWorkflowInput } from "@freshbox-medusa/framework/types"
 import {
   WorkflowData,
   createWorkflow,
   parallelize,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import {
   addCampaignPromotionsStep,
   removeCampaignPromotionsStep,

@@ -2,8 +2,8 @@ import {
   Adjustments,
   AdjustmentsDone,
   ExclamationCircle,
-} from "@medusajs/icons"
-import { Button, DropdownMenu, clx } from "@medusajs/ui"
+} from "@freshbox-medusa/icons"
+import { Button, DropdownMenu, clx } from "@freshbox-medusa/ui"
 import {
   Cell,
   CellContext,

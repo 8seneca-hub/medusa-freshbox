@@ -1,7 +1,7 @@
-import { Modules } from "@medusajs/framework/utils"
-import { ProviderLoaderOptions } from "@medusajs/types"
+import { Modules } from "@freshbox-medusa/framework/utils"
+import { ProviderLoaderOptions } from "@freshbox-medusa/types"
 import { RedisCacheModuleOptions } from "@types"
-import { asValue } from "@medusajs/framework/awilix"
+import { asValue } from "@freshbox-medusa/framework/awilix"
 import Redis from "ioredis"
 
 export default async ({

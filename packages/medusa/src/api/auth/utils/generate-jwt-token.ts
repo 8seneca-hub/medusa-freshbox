@@ -2,12 +2,12 @@ import {
   AuthIdentityDTO,
   MedusaContainer,
   ProjectConfigOptions,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   ContainerRegistrationKeys,
   FeatureFlag,
   generateJwtToken,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { type Secret } from "jsonwebtoken"
 import RbacFeatureFlag from "../../../feature-flags/rbac"
 

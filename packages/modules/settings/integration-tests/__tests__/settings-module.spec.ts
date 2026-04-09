@@ -1,6 +1,6 @@
-import { Modules } from "@medusajs/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
-import { SettingsTypes } from "@medusajs/types"
+import { Modules } from "@freshbox-medusa/utils"
+import { moduleIntegrationTestRunner } from "@freshbox-medusa/test-utils"
+import { SettingsTypes } from "@freshbox-medusa/types"
 
 jest.setTimeout(30000)
 

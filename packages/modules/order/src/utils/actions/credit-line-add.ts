@@ -2,8 +2,8 @@ import {
   ChangeActionType,
   MathBN,
   MedusaError,
-} from "@medusajs/framework/utils"
-import { CreateOrderCreditLineDTO, OrderCreditLineDTO } from "@medusajs/types"
+} from "@freshbox-medusa/framework/utils"
+import { CreateOrderCreditLineDTO, OrderCreditLineDTO } from "@freshbox-medusa/types"
 import { OrderChangeProcessing } from "../calculate-order-change"
 import { setActionReference } from "../set-action-reference"
 

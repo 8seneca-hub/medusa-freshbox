@@ -1,7 +1,7 @@
 import {
   ModuleProviderExports,
   ModuleServiceInitializeOptions,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 
 export const LockingDefaultProvider = "default_provider"
 export const LockingIdentifiersRegistrationName = "locking_providers_identifier"
@@ -32,9 +32,9 @@ export type LockingModuleOptions = Partial<ModuleServiceInitializeOptions> & {
   }[]
 }
 
-declare module "@medusajs/types" {
+declare module "@freshbox-medusa/types" {
   interface ModuleOptions {
-    "@medusajs/locking": LockingModuleOptions
-    "@medusajs/medusa/locking": LockingModuleOptions
+    "@freshbox-medusa/locking": LockingModuleOptions
+    "@freshbox-medusa/medusa/locking": LockingModuleOptions
   }
 }

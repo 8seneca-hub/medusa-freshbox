@@ -1,12 +1,12 @@
-import { dismissLinksWorkflow, updateLinksWorkflow } from "@medusajs/core-flows"
-import { Modules } from "@medusajs/framework/utils"
+import { dismissLinksWorkflow, updateLinksWorkflow } from "@freshbox-medusa/core-flows"
+import { Modules } from "@freshbox-medusa/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import { refetchVariant } from "../../../../../helpers"
 import { AdminUpdateVariantInventoryItemType } from "../../../../../validators"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<

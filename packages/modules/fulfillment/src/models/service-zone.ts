@@ -9,7 +9,7 @@ import {
   NullableModifier,
   PrimaryKeyModifier,
   TextProperty,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 
 import { FulfillmentSet } from "./fulfillment-set"
 import { GeoZone } from "./geo-zone"

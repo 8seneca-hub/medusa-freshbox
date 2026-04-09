@@ -3,15 +3,15 @@ import {
   MedusaRequest,
   MedusaResponse,
   Query,
-} from "@medusajs/framework"
-import { ApiLoader } from "@medusajs/framework/http"
-import { SpanStatusCode } from "@medusajs/framework/opentelemetry/api"
-import type { NodeSDKConfiguration } from "@medusajs/framework/opentelemetry/sdk-node"
-import type { SpanExporter } from "@medusajs/framework/opentelemetry/sdk-trace-node"
-import { TransactionOrchestrator } from "@medusajs/framework/orchestration"
-import { Tracer } from "@medusajs/framework/telemetry"
-import { ICachingModuleService } from "@medusajs/framework/types"
-import { camelToSnakeCase, FeatureFlag } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework"
+import { ApiLoader } from "@freshbox-medusa/framework/http"
+import { SpanStatusCode } from "@freshbox-medusa/framework/opentelemetry/api"
+import type { NodeSDKConfiguration } from "@freshbox-medusa/framework/opentelemetry/sdk-node"
+import type { SpanExporter } from "@freshbox-medusa/framework/opentelemetry/sdk-trace-node"
+import { TransactionOrchestrator } from "@freshbox-medusa/framework/orchestration"
+import { Tracer } from "@freshbox-medusa/framework/telemetry"
+import { ICachingModuleService } from "@freshbox-medusa/framework/types"
+import { camelToSnakeCase, FeatureFlag } from "@freshbox-medusa/framework/utils"
 import CacheModule from "../modules/caching"
 
 const EXCLUDED_RESOURCES = [".vite", "virtual:"]
@@ -28,7 +28,7 @@ function shouldExcludeResource(resource: string) {
  */
 export function instrumentHttpLayer() {
   const startCommand = require("../commands/start")
-  const HTTPTracer = new Tracer("@medusajs/http", "2.0.0")
+  const HTTPTracer = new Tracer("@freshbox-medusa/http", "2.0.0")
 
   startCommand.traceRequestHandler = async (
     requestHandler,
@@ -132,7 +132,7 @@ export function instrumentHttpLayer() {
  * Instrument the queries made using the remote query
  */
 export function instrumentRemoteQuery() {
-  const QueryTracer = new Tracer("@medusajs/query", "2.0.0")
+  const QueryTracer = new Tracer("@freshbox-medusa/query", "2.0.0")
 
   Query.instrument.graphQuery(async function (queryFn, queryOptions) {
     return await QueryTracer.trace(
@@ -223,7 +223,7 @@ export function instrumentRemoteQuery() {
  */
 export function instrumentWorkflows() {
   const WorkflowsTracer = new Tracer(
-    "@medusajs/framework/workflows-sdk",
+    "@freshbox-medusa/framework/workflows-sdk",
     "2.0.0"
   )
 
@@ -267,7 +267,7 @@ export function instrumentCache() {
     return
   }
 
-  const CacheTracer = new Tracer("@medusajs/caching", "2.0.0")
+  const CacheTracer = new Tracer("@freshbox-medusa/caching", "2.0.0")
   const cacheModule_ = CacheModule as unknown as {
     service: ICachingModuleService & {
       traceGet: (
@@ -407,16 +407,16 @@ export function registerOtel(
   const {
     Resource,
     resourceFromAttributes,
-  } = require("@medusajs/framework/opentelemetry/resources")
-  const { NodeSDK } = require("@medusajs/framework/opentelemetry/sdk-node")
+  } = require("@freshbox-medusa/framework/opentelemetry/resources")
+  const { NodeSDK } = require("@freshbox-medusa/framework/opentelemetry/sdk-node")
   const {
     SimpleSpanProcessor,
-  } = require("@medusajs/framework/opentelemetry/sdk-trace-node")
+  } = require("@freshbox-medusa/framework/opentelemetry/sdk-trace-node")
 
   if (instrument.db) {
     const {
       PgInstrumentation,
-    } = require("@medusajs/framework/opentelemetry/instrumentation-pg")
+    } = require("@freshbox-medusa/framework/opentelemetry/instrumentation-pg")
     instrumentations.push(new PgInstrumentation())
   }
   if (instrument.http) {

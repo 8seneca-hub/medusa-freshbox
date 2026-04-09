@@ -16,9 +16,9 @@ export type InMemoryCacheModuleOptions = {
   ttl?: number
 }
 
-declare module "@medusajs/types" {
+declare module "@freshbox-medusa/types" {
   interface ModuleOptions {
-    "@medusajs/cache-inmemory": InMemoryCacheModuleOptions
-    "@medusajs/medusa/cache-inmemory": InMemoryCacheModuleOptions
+    "@freshbox-medusa/cache-inmemory": InMemoryCacheModuleOptions
+    "@freshbox-medusa/medusa/cache-inmemory": InMemoryCacheModuleOptions
   }
 }

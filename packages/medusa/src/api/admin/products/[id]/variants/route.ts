@@ -1,11 +1,11 @@
-import { createProductVariantsWorkflow } from "@medusajs/core-flows"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
+import { createProductVariantsWorkflow } from "@freshbox-medusa/core-flows"
+import { AdditionalData, HttpTypes } from "@freshbox-medusa/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import { wrapVariantsWithTotalInventoryQuantity } from "../../../../utils/middlewares"
-import { refetchEntities, refetchEntity } from "@medusajs/framework/http"
+import { refetchEntities, refetchEntity } from "@freshbox-medusa/framework/http"
 import {
   remapKeysForProduct,
   remapKeysForVariant,

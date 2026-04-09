@@ -1,16 +1,16 @@
-import { MedusaContainer } from "@medusajs/framework"
+import { MedusaContainer } from "@freshbox-medusa/framework"
 import {
   IOrderModuleService,
   ProductVariantDTO,
   RemoteQueryFunction,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   ContainerRegistrationKeys,
   deduplicate,
   FeatureFlag,
   Modules,
-} from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/utils"
+import { createStep, StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
 import { applyTranslationsToItems } from "../../common/utils/apply-translations-to-items"
 import { productVariantsFields } from "../utils/fields"
 

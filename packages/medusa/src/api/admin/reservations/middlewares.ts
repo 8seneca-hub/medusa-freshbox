@@ -4,9 +4,9 @@ import { Entities } from "./query-config"
 import {
   validateAndTransformBody,
   validateAndTransformQuery,
-} from "@medusajs/framework"
-import { MiddlewareRoute } from "@medusajs/framework/http"
-import { PolicyOperation } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework"
+import { MiddlewareRoute } from "@freshbox-medusa/framework/http"
+import { PolicyOperation } from "@freshbox-medusa/framework/utils"
 import {
   AdminCreateReservation,
   AdminGetReservationParams,

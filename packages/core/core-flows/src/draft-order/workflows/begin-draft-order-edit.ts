@@ -3,8 +3,8 @@ import {
   transform,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
-import type { OrderDTO, OrderWorkflow } from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/workflows-sdk"
+import type { OrderDTO, OrderWorkflow } from "@freshbox-medusa/framework/types"
 import { useRemoteQueryStep } from "../../common"
 import { createOrderChangeStep, previewOrderChangeStep } from "../../order"
 import { validateDraftOrderStep } from "../steps"

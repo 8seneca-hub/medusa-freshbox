@@ -1,5 +1,5 @@
-import { AdminCampaign } from "@medusajs/types"
-import { Heading, Text } from "@medusajs/ui"
+import { AdminCampaign } from "@freshbox-medusa/types"
+import { Heading, Text } from "@freshbox-medusa/ui"
 import { Fragment } from "react"
 import { useTranslation } from "react-i18next"
 

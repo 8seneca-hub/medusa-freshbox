@@ -1,5 +1,5 @@
-import { Modules } from "@medusajs/framework/utils"
-import { WorkflowData, createWorkflow } from "@medusajs/framework/workflows-sdk"
+import { Modules } from "@freshbox-medusa/framework/utils"
+import { WorkflowData, createWorkflow } from "@freshbox-medusa/framework/workflows-sdk"
 import { removeRemoteLinkStep } from "../../common"
 import { deleteReturnReasonStep } from "../steps"
 

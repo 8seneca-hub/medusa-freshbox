@@ -1,5 +1,5 @@
-import { HttpTypes } from "@medusajs/types"
-import { Divider, Text } from "@medusajs/ui"
+import { HttpTypes } from "@freshbox-medusa/types"
+import { Divider, Text } from "@freshbox-medusa/ui"
 import { useTranslation } from "react-i18next"
 
 export const ImportSummary = ({

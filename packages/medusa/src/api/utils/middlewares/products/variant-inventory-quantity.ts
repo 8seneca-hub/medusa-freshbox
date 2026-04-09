@@ -3,8 +3,8 @@ import {
   getTotalVariantAvailability,
   getVariantAvailability,
   MedusaError,
-} from "@medusajs/framework/utils"
-import { MedusaRequest, MedusaStoreRequest } from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/utils"
+import { MedusaRequest, MedusaStoreRequest } from "@freshbox-medusa/framework/http"
 import { transformAndValidateSalesChannelIds } from "./filter-by-valid-sales-channels"
 
 export const wrapVariantsWithTotalInventoryQuantity = async (

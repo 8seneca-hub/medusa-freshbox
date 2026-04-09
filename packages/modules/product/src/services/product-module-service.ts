@@ -9,7 +9,7 @@ import {
   ModuleJoinerConfig,
   ModulesSdkTypes,
   ProductTypes,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 import {
   Product,
   ProductCategory,
@@ -45,7 +45,7 @@ import {
   ProductStatus,
   removeUndefined,
   toHandle,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import { EntityManager } from "@mikro-orm/core"
 import { ProductRepository } from "../repositories"
 import {

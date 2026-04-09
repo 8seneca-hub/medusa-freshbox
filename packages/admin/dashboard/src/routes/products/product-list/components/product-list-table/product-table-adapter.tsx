@@ -1,4 +1,4 @@
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@freshbox-medusa/types"
 import { useProducts } from "../../../../../hooks/api/products"
 import { productColumnAdapter } from "../../../../../lib/table/entity-adapters"
 import { createTableAdapter, TableAdapter } from "../../../../../lib/table/table-adapters"

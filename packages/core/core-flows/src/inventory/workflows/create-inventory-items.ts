@@ -3,10 +3,10 @@ import {
   WorkflowResponse,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/workflows-sdk"
 import { createInventoryItemsStep } from "../steps"
 
-import type { InventoryTypes } from "@medusajs/framework/types"
+import type { InventoryTypes } from "@freshbox-medusa/framework/types"
 import { createInventoryLevelsWorkflow } from "./create-inventory-levels"
 
 /**

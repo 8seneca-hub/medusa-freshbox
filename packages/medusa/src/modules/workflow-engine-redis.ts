@@ -1,6 +1,6 @@
-import RedisWorkflowEngineModule from "@medusajs/workflow-engine-redis"
+import RedisWorkflowEngineModule from "@freshbox-medusa/workflow-engine-redis"
 
-export * from "@medusajs/workflow-engine-redis"
+export * from "@freshbox-medusa/workflow-engine-redis"
 
 export default RedisWorkflowEngineModule
-export const discoveryPath = require.resolve("@medusajs/workflow-engine-redis")
+export const discoveryPath = require.resolve("@freshbox-medusa/workflow-engine-redis")

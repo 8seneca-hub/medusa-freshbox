@@ -1,1 +1,1 @@
-export * from "@medusajs/deps/pg"
+export * from "@freshbox-medusa/deps/pg"

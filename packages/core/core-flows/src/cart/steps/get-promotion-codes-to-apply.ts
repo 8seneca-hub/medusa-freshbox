@@ -2,8 +2,8 @@ import {
   ContainerRegistrationKeys,
   MedusaError,
   PromotionActions,
-} from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+} from "@freshbox-medusa/framework/utils"
+import { createStep, StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
 
 /**
  * The details of the promotion codes to apply on a cart.

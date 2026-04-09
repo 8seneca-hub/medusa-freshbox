@@ -1,10 +1,10 @@
-import { createOrderCreditLinesWorkflow } from "@medusajs/core-flows"
+import { createOrderCreditLinesWorkflow } from "@freshbox-medusa/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { HttpTypes } from "@medusajs/framework/types"
-import { ContainerRegistrationKeys } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/http"
+import { HttpTypes } from "@freshbox-medusa/framework/types"
+import { ContainerRegistrationKeys } from "@freshbox-medusa/framework/utils"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<

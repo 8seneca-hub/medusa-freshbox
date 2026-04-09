@@ -1,9 +1,9 @@
 import {
   removeDraftOrderActionItemWorkflow,
   updateDraftOrderActionItemWorkflow,
-} from "@medusajs/core-flows"
-import { AuthenticatedMedusaRequest, MedusaResponse } from "@medusajs/framework"
-import { HttpTypes } from "@medusajs/types"
+} from "@freshbox-medusa/core-flows"
+import { AuthenticatedMedusaRequest, MedusaResponse } from "@freshbox-medusa/framework"
+import { HttpTypes } from "@freshbox-medusa/types"
 import { AdminUpdateDraftOrderItemType } from "../../../../validators"
 
 export const POST = async (

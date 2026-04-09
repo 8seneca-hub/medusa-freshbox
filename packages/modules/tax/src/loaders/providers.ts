@@ -1,14 +1,14 @@
-import { moduleProviderLoader } from "@medusajs/framework/modules-sdk"
+import { moduleProviderLoader } from "@freshbox-medusa/framework/modules-sdk"
 
 import {
   CreateTaxProviderDTO,
   LoaderOptions,
   ModuleProvider,
   ModulesSdkTypes,
-} from "@medusajs/framework/types"
-import { asFunction, asValue, Lifetime } from "@medusajs/framework/awilix"
+} from "@freshbox-medusa/framework/types"
+import { asFunction, asValue, Lifetime } from "@freshbox-medusa/framework/awilix"
 
-import { MedusaError } from "@medusajs/framework/utils"
+import { MedusaError } from "@freshbox-medusa/framework/utils"
 import * as providers from "../providers"
 import TaxProviderService from "../services/tax-provider"
 

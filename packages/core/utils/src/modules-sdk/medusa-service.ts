@@ -9,7 +9,7 @@ import {
   RepositoryService,
   RestoreReturn,
   SoftDeleteReturn,
-} from "@medusajs/types"
+} from "@freshbox-medusa/types"
 import { EventArgs } from "@mikro-orm/core"
 import {
   camelToSnakeCase,

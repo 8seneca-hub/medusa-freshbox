@@ -1,10 +1,10 @@
 import {
   MedusaResponse,
   AuthenticatedMedusaRequest,
-} from "@medusajs/framework/http"
-import type { HttpTypes } from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/http"
+import type { HttpTypes } from "@freshbox-medusa/framework/types"
 import type { AdminImportProductsType } from "../validators"
-import { importProductsAsChunksWorkflow } from "@medusajs/core-flows"
+import { importProductsAsChunksWorkflow } from "@freshbox-medusa/core-flows"
 
 /**
  * @since 2.8.5

@@ -3,13 +3,13 @@ import { MIMEType } from "util"
 import type {
   MedusaResponse,
   AuthenticatedMedusaRequest,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import {
   Modules,
   MedusaError,
   MedusaErrorTypes,
-} from "@medusajs/framework/utils"
-import type { HttpTypes } from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/utils"
+import type { HttpTypes } from "@freshbox-medusa/framework/types"
 import type { AdminUploadPreSignedUrlType } from "../validators"
 
 export const POST = async (

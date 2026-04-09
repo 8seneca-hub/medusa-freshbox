@@ -1,6 +1,6 @@
-import { PencilSquare, SquareTwoStack, Trash, XCircle } from "@medusajs/icons"
-import { AdminApiKeyResponse } from "@medusajs/types"
-import { toast, usePrompt } from "@medusajs/ui"
+import { PencilSquare, SquareTwoStack, Trash, XCircle } from "@freshbox-medusa/icons"
+import { AdminApiKeyResponse } from "@freshbox-medusa/types"
+import { toast, usePrompt } from "@freshbox-medusa/ui"
 import { useTranslation } from "react-i18next"
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import {

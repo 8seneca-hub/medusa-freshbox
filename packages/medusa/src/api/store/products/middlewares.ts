@@ -1,4 +1,4 @@
-import { validateAndTransformQuery } from "@medusajs/framework"
+import { validateAndTransformQuery } from "@freshbox-medusa/framework"
 import {
   applyDefaultFilters,
   applyParamsAsFilters,
@@ -9,13 +9,13 @@ import {
   MedusaRequest,
   MedusaResponse,
   MiddlewareRoute,
-} from "@medusajs/framework/http"
+} from "@freshbox-medusa/framework/http"
 import {
   ContainerRegistrationKeys,
   FeatureFlag,
   isPresent,
   ProductStatus,
-} from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/utils"
 import IndexEngineFeatureFlag from "../../../feature-flags/index-engine"
 import {
   filterByValidSalesChannels,
@@ -77,7 +77,7 @@ export const storeProductRoutesMiddlewares: MiddlewareRoute[] = [
       filterByValidSalesChannels(),
       applyMaybeLinkFilterIfNecessary,
       applyDefaultFilters({
-        status: ProductStatus.PUBLISHED,
+        status: [ProductStatus.PUBLISHED, ProductStatus.DRAFT],
         // TODO: the type here seems off and the implementation does not take into account $and and $or possible filters. Might be worth re working (original type used here was StoreGetProductsParamsType)
         categories: (filters: any, fields: string[]) => {
           const categoryIds = filters.category_id
@@ -115,7 +115,7 @@ export const storeProductRoutesMiddlewares: MiddlewareRoute[] = [
         filterableField: "sales_channel_id",
       }),
       applyDefaultFilters({
-        status: ProductStatus.PUBLISHED,
+        status: [ProductStatus.PUBLISHED, ProductStatus.DRAFT],
       }),
       normalizeDataForContext(),
       setPricingContext(),

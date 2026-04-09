@@ -2,8 +2,8 @@ import {
   Constructor,
   ILinkModule,
   ModuleJoinerConfig,
-} from "@medusajs/framework/types"
-import { isDefined } from "@medusajs/framework/utils"
+} from "@freshbox-medusa/framework/types"
+import { isDefined } from "@freshbox-medusa/framework/utils"
 import { LinkModuleService } from "@services"
 
 export function getModuleService(

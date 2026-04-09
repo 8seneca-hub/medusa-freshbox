@@ -2,9 +2,9 @@ import {
   ContainerRegistrationKeys,
   Modules,
   PromotionActions,
-} from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
-import type { IPromotionModuleService } from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/utils"
+import { createStep, StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
+import type { IPromotionModuleService } from "@freshbox-medusa/framework/types"
 
 export const updateDraftOrderPromotionsStepId = "update-draft-order-promotions"
 
@@ -37,7 +37,7 @@ export interface UpdateDraftOrderPromotionsStepInput {
  * const data = updateDraftOrderPromotionsStep({
  *   id: "order_123",
  *   promo_codes: ["PROMO_123", "PROMO_456"],
- *   // Import from "@medusajs/framework/utils"
+ *   // Import from "@freshbox-medusa/framework/utils"
  *   action: PromotionActions.ADD,
  * })
  */

@@ -1,5 +1,5 @@
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
-import { MedusaError, Modules } from "@medusajs/framework/utils"
+import { createStep, StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
+import { MedusaError, Modules } from "@freshbox-medusa/framework/utils"
 
 /**
  * The data to validate if sales channels can be deleted.

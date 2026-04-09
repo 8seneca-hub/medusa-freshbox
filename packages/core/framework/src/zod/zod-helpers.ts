@@ -5,7 +5,7 @@ import {
   type ZodInvalidTypeIssue,
   type ZodInvalidUnionIssue,
   type ZodIssue,
-} from "@medusajs/deps/zod"
+} from "@freshbox-medusa/deps/zod"
 
 const formatPath = (issue: ZodIssue) => {
   return issue.path.join(", ")

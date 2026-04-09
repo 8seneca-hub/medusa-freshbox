@@ -1,5 +1,5 @@
-import { ModuleJoinerConfig } from "@medusajs/types"
-import { defineJoinerConfig } from "@medusajs/utils"
+import { ModuleJoinerConfig } from "@freshbox-medusa/types"
+import { defineJoinerConfig } from "@freshbox-medusa/utils"
 import { MedusaModule } from "../../medusa-module"
 
 const customModuleJoinerConfig = defineJoinerConfig("custom_user", {

@@ -1,5 +1,5 @@
-import { HttpTypes } from "@medusajs/types"
-import { toast } from "@medusajs/ui"
+import { HttpTypes } from "@freshbox-medusa/types"
+import { toast } from "@freshbox-medusa/ui"
 import { useCallback } from "react"
 import { useDraftOrderCancelEdit } from "../api/draft-orders"
 

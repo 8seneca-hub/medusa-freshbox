@@ -1,7 +1,7 @@
-import { ICartModuleService } from "@medusajs/framework/types"
-import { BigNumber, Module, Modules } from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
-import { CheckConstraintViolationException } from "@medusajs/framework/mikro-orm/core"
+import { ICartModuleService } from "@freshbox-medusa/framework/types"
+import { BigNumber, Module, Modules } from "@freshbox-medusa/framework/utils"
+import { moduleIntegrationTestRunner } from "@freshbox-medusa/test-utils"
+import { CheckConstraintViolationException } from "@freshbox-medusa/framework/mikro-orm/core"
 import { CartModuleService } from "@services"
 
 jest.setTimeout(50000)

@@ -1,12 +1,12 @@
-import { ContainerRegistrationKeys } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { ContainerRegistrationKeys } from "@freshbox-medusa/framework/utils"
+import { createStep, StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
 import type {
   ComputeActionContext,
   OrderDTO,
   OrderPreviewDTO,
   ProductDTO,
   ShippingOptionDTO,
-} from "@medusajs/framework/types"
+} from "@freshbox-medusa/framework/types"
 
 /**
  * The details of the order to prepare compute actions for.

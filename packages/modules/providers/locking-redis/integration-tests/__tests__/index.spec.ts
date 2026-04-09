@@ -1,6 +1,6 @@
-import { ILockingModule } from "@medusajs/framework/types"
-import { Modules, promiseAll } from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { ILockingModule } from "@freshbox-medusa/framework/types"
+import { Modules, promiseAll } from "@freshbox-medusa/framework/utils"
+import { moduleIntegrationTestRunner } from "@freshbox-medusa/test-utils"
 import { setTimeout } from "node:timers/promises"
 
 jest.setTimeout(5000)

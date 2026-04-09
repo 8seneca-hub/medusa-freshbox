@@ -1,6 +1,6 @@
-import { PencilSquare, ShoppingBag } from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
-import { Container, Heading } from "@medusajs/ui"
+import { PencilSquare, ShoppingBag } from "@freshbox-medusa/icons"
+import { HttpTypes } from "@freshbox-medusa/types"
+import { Container, Heading } from "@freshbox-medusa/ui"
 import { useTranslation } from "react-i18next"
 
 import { SidebarLink } from "../../../../../components/common/sidebar-link/sidebar-link"

@@ -1,6 +1,6 @@
-import { listShippingOptionsForOrderWorkflow } from "@medusajs/core-flows"
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
-import { AdminShippingOption, HttpTypes } from "@medusajs/framework/types"
+import { listShippingOptionsForOrderWorkflow } from "@freshbox-medusa/core-flows"
+import { MedusaRequest, MedusaResponse } from "@freshbox-medusa/framework/http"
+import { AdminShippingOption, HttpTypes } from "@freshbox-medusa/framework/types"
 
 /**
  * @since 2.10.0

@@ -1,7 +1,7 @@
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
-import { ContainerRegistrationKeys, Modules } from "@medusajs/framework/utils"
-import { Link, Query } from "@medusajs/framework/modules-sdk"
-import { LinkDefinition } from "@medusajs/types"
+import { createStep, StepResponse } from "@freshbox-medusa/framework/workflows-sdk"
+import { ContainerRegistrationKeys, Modules } from "@freshbox-medusa/framework/utils"
+import { Link, Query } from "@freshbox-medusa/framework/modules-sdk"
+import { LinkDefinition } from "@freshbox-medusa/types"
 
 export const dismissProductVariantsInventoryStepId =
   "dismiss-product-variants-inventory"
