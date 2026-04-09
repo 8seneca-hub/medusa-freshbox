@@ -215,8 +215,36 @@ function validateCrossDependencies(newVersion) {
   return errors
 }
 
+function isAlreadyPublished(pkg, version) {
+  try {
+    const output = execSync(
+      `npm view ${pkg.publishName}@${version} version`,
+      { encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] }
+    ).trim()
+    return output === version
+  } catch {
+    return false
+  }
+}
+
 async function buildAndPublishPackage(pkg, newVersion) {
   console.log(`\n🏗️  Processing ${pkg.publishName}...`)
+
+  // Skip if already published
+  if (isAlreadyPublished(pkg, newVersion)) {
+    console.log(`⏭️  ${pkg.publishName}@${newVersion} already published, skipping...`)
+
+    // Still update version in package.json and dependent packages
+    updatePackageVersion(pkg.path, newVersion)
+    if (pkg.updateDependenciesIn.length > 0) {
+      console.log(`\n📝 Updating ${pkg.publishName} version in dependent packages...`)
+      for (const dependentPath of pkg.updateDependenciesIn) {
+        updateDependencyVersions(dependentPath, pkg.publishName, newVersion)
+      }
+    }
+
+    return true
+  }
 
   // Update package version
   try {

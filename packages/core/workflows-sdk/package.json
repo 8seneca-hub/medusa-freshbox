@@ -1,6 +1,6 @@
 {
   "name": "@freshbox-medusa/workflows-sdk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Set of workflows tooling for Medusa",
   "main": "dist/index.js",
   "exports": {
@@ -31,9 +31,9 @@
   },
   "dependencies": {
     "@freshbox-medusa/deps": "1.0.3",
-    "@freshbox-medusa/modules-sdk": "1.0.4",
-    "@freshbox-medusa/orchestration": "1.0.4",
-    "@freshbox-medusa/utils": "1.0.4",
+    "@freshbox-medusa/modules-sdk": "1.0.5",
+    "@freshbox-medusa/orchestration": "1.0.5",
+    "@freshbox-medusa/utils": "1.0.5",
     "ulid": "^2.3.0"
   },
   "scripts": {

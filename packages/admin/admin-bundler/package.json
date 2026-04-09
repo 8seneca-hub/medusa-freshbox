@@ -1,6 +1,6 @@
 {
   "name": "@freshbox-medusa/admin-bundler",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Bundler for the Medusa admin dashboard.",
   "author": "Kasper Kristensen <kasper@freshbox-medusa.com>",
   "scripts": {
@@ -23,7 +23,7 @@
   "dependencies": {
     "@freshbox-medusa/admin-shared": "1.0.3",
     "@freshbox-medusa/admin-vite-plugin": "1.0.3",
-    "@freshbox-medusa/dashboard": "1.0.4",
+    "@freshbox-medusa/dashboard": "1.0.5",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.19",
     "compression": "^1.8.0",

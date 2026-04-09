@@ -1,6 +1,6 @@
 {
   "name": "@freshbox-medusa/medusa",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Building blocks for digital commerce",
   "main": "dist/index.js",
   "exports": {
@@ -49,10 +49,10 @@
     "test:integration": "../../node_modules/.bin/jest --passWithNoTests --forceExit --testPathPattern=\"src/.*/integration-tests/__tests__/.*\\.ts\""
   },
   "devDependencies": {
-    "@freshbox-medusa/framework": "1.0.4"
+    "@freshbox-medusa/framework": "1.0.5"
   },
   "dependencies": {
-    "@freshbox-medusa/admin-bundler": "1.0.4",
+    "@freshbox-medusa/admin-bundler": "1.0.5",
     "@freshbox-medusa/analytics": "1.0.3",
     "@freshbox-medusa/analytics-local": "1.0.3",
     "@freshbox-medusa/analytics-posthog": "1.0.3",
@@ -121,7 +121,7 @@
     "uuid": "^9.0.0"
   },
   "peerDependencies": {
-    "@freshbox-medusa/framework": "1.0.4",
+    "@freshbox-medusa/framework": "1.0.5",
     "@swc/core": "^1.7.28",
     "posthog-node": "^5.11.0",
     "react-dom": "^18.3.1",

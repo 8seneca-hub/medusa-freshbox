@@ -1,6 +1,6 @@
 {
   "name": "@freshbox-medusa/orchestration",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Medusa utilities to orchestrate modules",
   "main": "dist/index.js",
   "exports": {
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@freshbox-medusa/deps": "1.0.3",
-    "@freshbox-medusa/utils": "1.0.4",
+    "@freshbox-medusa/utils": "1.0.5",
     "ulid": "^2.3.0"
   },
   "scripts": {
