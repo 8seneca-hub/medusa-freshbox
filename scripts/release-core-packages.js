@@ -172,6 +172,49 @@ function updateDependencyVersions(packagePath, dependencyName, newVersion) {
   }
 }
 
+function validateCrossDependencies(newVersion) {
+  const SCOPE = "@freshbox-medusa/"
+  const corePackageNames = CORE_PACKAGES.map((pkg) => pkg.name)
+  const errors = []
+
+  for (const pkg of CORE_PACKAGES) {
+    const packageJsonPath = path.join(process.cwd(), pkg.path, "package.json")
+    const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, "utf8"))
+
+    const depTypes = ["dependencies", "peerDependencies", "devDependencies"]
+
+    for (const depType of depTypes) {
+      const deps = packageJson[depType] || {}
+      for (const [depName, depVersion] of Object.entries(deps)) {
+        if (!depName.startsWith(SCOPE)) continue
+
+        // If this dep is a core package, it will be published at newVersion — OK
+        if (corePackageNames.includes(depName)) continue
+
+        // For non-core @freshbox-medusa/* deps, check if the version exists on npm
+        try {
+          const output = execSync(
+            `npm view ${depName}@${depVersion} version`,
+            { encoding: "utf8", stdio: ["pipe", "pipe", "pipe"] }
+          ).trim()
+
+          if (!output) {
+            errors.push(
+              `${pkg.name} -> ${depName}@${depVersion} (${depType}): version not found on npm`
+            )
+          }
+        } catch (error) {
+          errors.push(
+            `${pkg.name} -> ${depName}@${depVersion} (${depType}): version not found on npm`
+          )
+        }
+      }
+    }
+  }
+
+  return errors
+}
+
 async function buildAndPublishPackage(pkg, newVersion) {
   console.log(`\n🏗️  Processing ${pkg.publishName}...`)
 
@@ -283,6 +326,20 @@ async function main() {
       )
     }
   })
+
+  // Validate cross-dependencies before publishing
+  console.log("\n🔍 Validating cross-dependencies...")
+  const validationErrors = validateCrossDependencies(newVersion)
+
+  if (validationErrors.length > 0) {
+    console.error("\n❌ Cross-dependency validation failed:")
+    validationErrors.forEach((err) => console.error(`  - ${err}`))
+    console.error(
+      "\nFix these version references before publishing. Non-core @freshbox-medusa/* dependencies must point to versions that exist on npm."
+    )
+    process.exit(1)
+  }
+  console.log("✅ All cross-dependencies valid\n")
 
   // Wait for 5 seconds to allow cancellation
   console.log("\n⚠️  Press Ctrl+C within 5 seconds to cancel...")
