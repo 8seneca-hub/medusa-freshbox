@@ -1,6 +1,6 @@
 {
   "name": "@freshbox-medusa/modules-sdk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "SDK for medusa modules",
   "main": "dist/index.js",
   "export": {
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@freshbox-medusa/deps": "1.0.3",
-    "@freshbox-medusa/orchestration": "1.0.3",
-    "@freshbox-medusa/utils": "1.0.3"
+    "@freshbox-medusa/orchestration": "1.0.4",
+    "@freshbox-medusa/utils": "1.0.4"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@freshbox-medusa/utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Medusa utilities functions shared by Medusa core and Modules",
   "main": "dist/index.js",
   "exports": {

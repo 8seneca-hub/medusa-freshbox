@@ -61,18 +61,18 @@ const CORE_PACKAGES = [
     path: "packages/cli/medusa-cli",
     updateDependenciesIn: [],
   },
-  // {
-  //   name: "@freshbox-medusa/dashboard",
-  //   publishName: "@freshbox-medusa/dashboard",
-  //   path: "packages/admin/dashboard",
-  //   updateDependenciesIn: ["packages/admin/admin-bundler", "packages/medusa"],
-  // },
-  // {
-  //   name: "@freshbox-medusa/admin-bundler",
-  //   publishName: "@freshbox-medusa/admin-bundler",
-  //   path: "packages/admin/admin-bundler",
-  //   updateDependenciesIn: ["packages/medusa"],
-  // },
+  {
+    name: "@freshbox-medusa/dashboard",
+    publishName: "@freshbox-medusa/dashboard",
+    path: "packages/admin/dashboard",
+    updateDependenciesIn: ["packages/admin/admin-bundler", "packages/medusa"],
+  },
+  {
+    name: "@freshbox-medusa/admin-bundler",
+    publishName: "@freshbox-medusa/admin-bundler",
+    path: "packages/admin/admin-bundler",
+    updateDependenciesIn: ["packages/medusa"],
+  },
   {
     name: "@freshbox-medusa/medusa",
     publishName: "@freshbox-medusa/medusa",
